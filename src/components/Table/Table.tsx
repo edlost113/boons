@@ -27,7 +27,7 @@ const Table = () => {
             grow: true,
           },
           {
-            header: 'Requirement',
+            header: 'Prerequisite',
             accessorKey: 'pre',
             grow: true,
             GroupedCell: ({ cell, row }) => (

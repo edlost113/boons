@@ -3,103 +3,103 @@
       "name": "BOON OF COMBAT PROWESS",
       "desc": "When you miss with a melee weapon attack, you can choose to hit instead. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF DIMENSIONAL TRAVEL",
       "desc": "As an action, you can cast the misty step spell, without using a spell slot or any components. You can use this boon threes times afterwards you can't use this boon again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF FATE",
       "desc": "When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw , you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF FORTITUDE",
       "desc": "Your hit point maximum increases by 40.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF HIGH MAGIC",
       "desc": "You gain one 9th-level spell slot, provided that you already have one. If you do not have a 9th level spell lot you gain a spell slot equal to one + your highest level spell slot. This grows with you until you reach 9th level spell slots.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF IMMORTALITY",
       "desc": "You stop aging. You are immune to any effect that would age you, and you can't die from old age.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF INVINCIBILITY",
       "desc": "When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF IRRESISTIBLE OFFENSE",
       "desc": "You can bypass the damage resistances of any creature.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF LUCK",
       "desc": "You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF MAGIC IMMUNITY",
       "desc": "You gain magic immunity up to level 3. When you take this boon additional times your magic immunity level increases by two, up to a max of 7th level magic immunity.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF MAGIC RESISTANCE",
       "desc": "You have advantage on saving throws against spells and other magical effects.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF PEERLESS AIM",
       "desc": "You can give yourself a +20 bonus to a ranged attack roll you make. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF PERFECT HEALTH",
       "desc": "You are immune to all diseases and poisons, and you have advantage on Constitution saving throws.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF PLANAR TRAVEL",
       "desc": "When you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the plane shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF QUICK CASTING",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "desc": "Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you.",
       "lvl": 1
     },
@@ -107,105 +107,105 @@
       "name": "BOON OF RECOVERY",
       "desc": "You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF RESILIENCE",
       "desc": "You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. (Some powerful creatures natural weapons - ie claws and teeth are still considered magical)",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF RESISTANCE",
       "desc": "Once per long rest, when you fail a saving throw you may choose to succeed instead.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF SKILL PROFICIENCY",
       "desc": "You gain proficiency in all skills.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF SPEED",
       "desc": "Your walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF SPELL MASTERY",
       "desc": "Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF SPELL RECALL",
       "desc": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you cant use this boon again until you finish a long rest.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF THE FIRE SOUL",
       "desc": "You have immunity to fire damage. You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF THE NIGHT SPIRIT",
       "desc": "While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF THE STORMBORN",
       "desc": "You have immunity to lightning and thunder damage. You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF THE UNFETTERED",
       "desc": "You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF TRUESIGHT",
       "desc": "You have truesight out to a range of 60 feet.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF UNDETECTABILITY",
       "desc": "You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF ARTIFACT AFFINITY",
       "desc": "Pick 1 item that you are attuned to. That item becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
       "name": "BOON OF ENERGY INVESTMENT",
       "desc": "You attune to the elemental energies of the universe. When casting a spell that deals fire, thunder, lightning or cold damage you can change its damage type to another of those types. In addition when taking this boon you gain immunity to one of those types. Your body takes on properties that correspond thematically to that element, altering your appearance. Additionally any energy around you seems more volatile, fires crackles louder and brighter, wind blows more fiercely, etc.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
@@ -226,7 +226,7 @@
       "name": "BOON OF DIVINE SIZE",
       "desc": "You physical size grows to match your emerging power. You grow in size becoming 1 size larger",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
@@ -261,7 +261,7 @@
       "name": "LEGENDARY GENERAL",
       "desc": "Once a day you can give a invigorating shout to restore one ability for an ally within 60 ft that would normally be recharged by a short rest. You also gain advantage on ability checks involving leadership or gaining a title",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
@@ -275,7 +275,7 @@
       "name": "HANDS OF THE KING",
       "desc": "Once a day as an action you can touch a creature. The target magically restores 30 hit points and has lesser restoration cast on it. Taking this feat again heals an extra 30 hit points and casts greater restoration on the target. Taking this feat a 3rd time heals an extra 30 hit points and casts Raise Dead with no need of components if the target is dead.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 1
     },
     {
@@ -499,63 +499,63 @@
       "name": "BOON OF IMMORTALITY",
       "desc": "Your soul is a priceless treasure, you dont age (even from magical sources) and if you reach 0 hp you can spend your reaction to spend hit dice as if finishing a short rest.",
       "title": "______ The Immortal",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF EXTRAORDINARY CONCENTRATION",
       "desc": "You maintain concentration through unconscious or incapacitated conditions, and even through death. You don't need to make concentration checks when taking under 50 damage.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF EMPOWERED OFFENSE",
       "desc": "When casting a spell that targets a creature with magic immunity, you can empower your spell, bypassing their magical immunity. Creatures targeted by an empowered spell have advantage on saves against that spell. Additionally empowered spells have disadvantage on attack rolls.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF THE DEATH BRINGER",
       "desc": "If you physically strike a creature of CR 10 or less it instantly dies. So potent are you killing abilities that the afterlife fills with the souls of your victims, making you legend in those planes",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF THE ARCANE MASTER",
       "desc": "Your spell save DC becomes 12 + prof + spell casting modifier",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF THE SPELL LORD",
       "desc": "Your spells against any creature of CR 10 or less automatically succeed and deal maximum damage. Your spell attacks critical hit on a 18-20. All creatures automatically assume your the most powerful spell caster in the room.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF PERFECT HEALTH",
       "desc": "Your body is in perfect health. Your maximum HP is as if you rolled the maximum on each hit dice roll when leveling up.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF THE PARAGON",
       "desc": "You increase your proficiency by 1 and become a perfect specimen of your species, with perfect body features for your species. If you have a child it is born with this Boon.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF THE SPELL SLINGER",
       "desc": "You can cast cantrips as bonus actions and you can use your reaction twice in a turn to cast a spell with a casting time of a reaction.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
@@ -590,7 +590,7 @@
       "name": "BOON OF LESSER BOONS",
       "desc": "You gain two 1st level Boons.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
@@ -604,7 +604,7 @@
       "name": "BOON OF THE SUMMONER",
       "desc": "You double the number of creatures you summon from conjuration spells",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
@@ -632,28 +632,28 @@
       "name": "BOON OF MULTI-CLASS",
       "desc": "You gain a level in a class of your choice. This cannot raise a class over 20.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF MULTI-SUBCLASS",
       "desc": "You can pick another subclass from a class you have a subclass selected alread and gain all the benefits and features from that new class as well.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF FEATS",
       "desc": "You can select 3 feats (still have to pass any requirements to pick those feats)",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
       "name": "BOON OF GREATER SPEED",
       "desc": "All your speeds (walking, flying, swimming) increase by 10ft. This includes any ability or spell that normally would have a set speed limit.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 3
     },
     {
@@ -667,14 +667,14 @@
       "name": "BOON OF GREATER BOONS",
       "desc": "You gain two 3rd level Boons.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {
       "name": "BOON OF MASTER TACTICIAN",
       "desc": "When you have advantage roll 3d20s and take the highest result rather than 2d20s",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {
@@ -695,35 +695,35 @@
       "name": "BOON OF GREATER FEATS",
       "desc": "You can select 10 feats (still have to pass any requirements to pick those feats)",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {
       "name": "BOON OF GODLY MULTI-CLASS",
       "desc": "You gain 5 levels in a class of your choice. This cannot raise a class over 20.",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {
       "name": "BOON OF PARTIAL DIVINITY",
       "desc": "Increase a single attribute to 30",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {
       "name": "CRITICAL SPELL CASTER",
       "desc": "When you cast a spell that deals damage that causes the targets to make a saving throw, roll a d20. On a 20 the spells damage dice are doubled (on a 1 the spell does not fail).",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {
       "name": "CRITICAL WEAPON MASTER",
       "desc": "You gain +1 to your critical hit range (if you should crit on 20 you now crit on a 19-20, if you would crit on an 18-20 you would crit on 17-20) and when you score a critical hit you deal x3 the damaged dice rather than x2",
       "title": "",
-      "pre": "No Requirement",
+      "pre": "No prerequisite",
       "lvl": 5
     },
     {

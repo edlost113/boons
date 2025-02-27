@@ -5,7 +5,7 @@ import {
   } from 'mantine-react-table';
   import { data, type Boon } from '../../data';
   import { Box,Stack } from '@mantine/core';
-  import { useMemo } from 'react';
+  import  { useMemo } from 'react';
 
 const Mobile = () => {
     const columns = useMemo<MRT_ColumnDef<Boon>[]>(
@@ -13,6 +13,7 @@ const Mobile = () => {
           {
             header: 'Boons',
             grow: true,
+            enableGrouping: false,
             accessorKey: 'name',
             Cell: ({ cell }) => (
               <>
@@ -23,6 +24,7 @@ const Mobile = () => {
               <Box style={{ color: 'skyblue' }}>{cell.getValue<string>()}</Box>
               <Box>{cell.row.original.desc}</Box>
               <Box><strong>Title:</strong> {cell.row.original.title}</Box>
+              <Box><strong>Prerequisite:</strong> {cell.row.original.pre}</Box>
             </Stack>
             </>
             ),
@@ -38,7 +40,6 @@ const Mobile = () => {
               ),
           }
         ],[]);
-
 
     const table = useMantineReactTable({
         columns,
