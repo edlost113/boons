@@ -30,17 +30,7 @@ const Mobile = () => {
             </Stack>
             </>
             ),
-          }/*,
-          {
-            header: 'Boon Points',
-            accessorKey: 'lvl',
-            enableGrouping: true, 
-            GroupedCell: ({ cell, row }) => (
-                <Box style={{ color: 'skyblue' }}>
-                  <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
-                </Box>
-              ),
-          }*/
+          }
         ],[]);
 
     const table = useMantineReactTable({
@@ -64,7 +54,6 @@ const Mobile = () => {
         initialState: {
           density: 'md',
           expanded: true,
-          //grouping: ['lvl', 'pre'],
           columnVisibility: { title: false, lvl: false, pre: false },
           pagination: { pageIndex: 0, pageSize: 200 },
           sorting: [{ id: 'lvl', desc: false }],
