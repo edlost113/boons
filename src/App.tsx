@@ -4,6 +4,7 @@ import 'mantine-react-table/styles.css'; //make sure MRT styles were imported in
 import { MantineProvider, Box } from '@mantine/core';
 import { theme } from './theme';
 import Table from './components/Table/Table'
+import ColorSchemeToggle from './components/ColorSchemeToggle/ColorSchemeToggle'
 import Mobile from './components/Mobile/Mobile'
 import { useEffect, useState } from 'react';
 export default function App() {
