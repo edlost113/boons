@@ -1,9 +1,11 @@
 {
-  "name": "mantine-vite-template",
+  "name": "boons",
   "private": true,
   "type": "module",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -22,6 +24,7 @@
   "dependencies": {
     "@mantine/core": "7.17.0",
     "@mantine/hooks": "7.17.0",
+    "mantine-react-table": "^2.0.0-beta.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.3"
@@ -43,6 +46,7 @@
     "eslint-config-mantine": "^4.0.3",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
+    "gh-pages": "^6.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^26.0.0",
     "postcss": "^8.5.1",
