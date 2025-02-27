@@ -30,6 +30,16 @@ const Table = () => {
             accessorKey: 'desc',
             size: 250,
           },
+          {
+            header: 'Requirement',
+            accessorKey: 'pre',
+            size: 250,
+            GroupedCell: ({ cell, row }) => (
+              <Box style={{ color: 'skyblue' }}>
+                <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
+              </Box>
+            ),
+          },
         ],[]);
 
 
@@ -44,7 +54,7 @@ const Table = () => {
         initialState: {
           density: 'md',
           expanded: true,
-          grouping: ['lvl'],
+          grouping: ['lvl', 'pre'],
           pagination: { pageIndex: 0, pageSize: 200 },
           sorting: [{ id: 'lvl', desc: false }],
         },
