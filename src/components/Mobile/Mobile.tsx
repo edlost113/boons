@@ -24,9 +24,9 @@ const Mobile = () => {
               >
               <Box style={{ color: 'skyblue' }}>{cell.getValue<string>()}</Box>
               <Box>{cell.row.original.desc}</Box>
-              <Box><strong>Title:</strong> {cell.row.original.title}</Box>
-              <Box><strong>Prerequisite:</strong> {cell.row.original.pre}</Box>
-              <Box><strong>Boon Points:</strong> {cell.row.original.lvl}</Box>
+              {!cell.row.original.title ?  <></>: <Box><strong style={{ color: 'skyblue' }}>Title:</strong> {cell.row.original.title}</Box>}
+              <Box><strong style={{ color: 'skyblue' }}>Prerequisite:</strong> {cell.row.original.pre}</Box>
+              <Box><strong style={{ color: 'skyblue' }}>Boon Points:</strong> {cell.row.original.lvl}</Box>
             </Stack>
             </>
             ),
