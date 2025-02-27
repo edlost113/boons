@@ -18,7 +18,7 @@ const Table = () => {
           {
             header: 'Boon Description',
             accessorKey: 'desc',
-            size: 250,
+            grow: true,
           },
           {
             header: 'Title Gained',
@@ -57,6 +57,7 @@ const Table = () => {
         enableStickyFooter: true,
         enableBottomToolbar: false,
         enableDensityToggle: false,
+        layoutMode: 'grid-no-grow',
         initialState: {
           density: 'md',
           expanded: true,
