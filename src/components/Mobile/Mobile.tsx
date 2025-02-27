@@ -24,9 +24,18 @@ const Mobile = () => {
               <Box style={{ color: 'skyblue' }}>{cell.getValue<string>()}</Box>
               <Box>{cell.row.original.desc}</Box>
               <Box><strong>Title:</strong> {cell.row.original.title}</Box>
-              <Box><strong>Prerequisite:</strong> {cell.row.original.pre}</Box>
             </Stack>
             </>
+            ),
+          },
+          {
+            header: 'Prerequisite',
+            accessorKey: 'pre',
+            grow: true,
+            GroupedCell: ({ cell, row }) => (
+              <Box style={{ color: 'skyblue' }}>
+                <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
+              </Box>
             ),
           },
           {
@@ -55,8 +64,8 @@ const Mobile = () => {
         initialState: {
           density: 'md',
           expanded: true,
-          grouping: ['lvl'],
-          columnVisibility: { title: false, pre: false },
+          grouping: ['lvl', 'pre'],
+          columnVisibility: { title: false, },
           pagination: { pageIndex: 0, pageSize: 200 },
           sorting: [{ id: 'lvl', desc: false }],
         },
