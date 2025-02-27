@@ -12,7 +12,7 @@ const Mobile = () => {
         () => [
           {
             header: 'Boons',
-            grow: true,
+            grow: 100,
             filterFn:'customFilterFn',
             enableGrouping: false,
             accessorKey: 'name',
@@ -30,17 +30,7 @@ const Mobile = () => {
             </Stack>
             </>
             ),
-          },
-          {
-            header: 'Prerequisite',
-            accessorKey: 'pre',
-            grow: true,
-            GroupedCell: ({ cell, row }) => (
-              <Box style={{ color: 'skyblue' }}>
-                <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
-              </Box>
-            ),
-          },
+          }/*,
           {
             header: 'Boon Points',
             accessorKey: 'lvl',
@@ -50,7 +40,7 @@ const Mobile = () => {
                   <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
                 </Box>
               ),
-          }
+          }*/
         ],[]);
 
     const table = useMantineReactTable({
