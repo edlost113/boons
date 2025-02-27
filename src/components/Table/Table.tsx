@@ -5,6 +5,7 @@ import {
   } from 'mantine-react-table';
   import { data, type Boon } from '../../data';
   import { Box } from '@mantine/core';
+  import './table.css';
   import { useMemo } from 'react';
 
 const Table = () => {
@@ -12,7 +13,7 @@ const Table = () => {
         () => [
           {
             header: 'Boon Name',
-            size: 250,
+            grow: true,
             accessorKey: 'name',
           },
           {
@@ -23,11 +24,12 @@ const Table = () => {
           {
             header: 'Title Gained',
             accessorKey: 'title',
+            grow: true,
           },
           {
             header: 'Requirement',
             accessorKey: 'pre',
-            size: 250,
+            grow: true,
             GroupedCell: ({ cell, row }) => (
               <Box style={{ color: 'skyblue' }}>
                 <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
@@ -37,6 +39,7 @@ const Table = () => {
           {
             header: 'Boon Points',
             accessorKey: 'lvl',
+            grow: true,
             enableGrouping: true, 
             GroupedCell: ({ cell, row }) => (
                 <Box style={{ color: 'skyblue' }}>

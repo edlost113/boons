@@ -12,7 +12,7 @@ const Mobile = () => {
         () => [
           {
             header: 'Boon Name',
-            size: 250,
+            grow: true,
             accessorKey: 'name',
           },
           {
@@ -27,7 +27,7 @@ const Mobile = () => {
           {
             header: 'Requirement',
             accessorKey: 'pre',
-            size: 250,
+            grow: true,
             GroupedCell: ({ cell, row }) => (
               <Box style={{ color: 'skyblue' }}>
                 <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
