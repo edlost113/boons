@@ -11,16 +11,6 @@ const Table = () => {
     const columns = useMemo<MRT_ColumnDef<Boon>[]>(
         () => [
           {
-            header: 'Boon Points',
-            accessorKey: 'lvl',
-            enableGrouping: true, 
-            GroupedCell: ({ cell, row }) => (
-                <Box style={{ color: 'skyblue' }}>
-                  <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
-                </Box>
-              ),
-          },
-          {
             header: 'Boon Name',
             size: 250,
             accessorKey: 'name',
@@ -40,6 +30,16 @@ const Table = () => {
               </Box>
             ),
           },
+          {
+            header: 'Boon Points',
+            accessorKey: 'lvl',
+            enableGrouping: true, 
+            GroupedCell: ({ cell, row }) => (
+                <Box style={{ color: 'skyblue' }}>
+                  <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
+                </Box>
+              ),
+          }
         ],[]);
 
 
@@ -48,8 +48,10 @@ const Table = () => {
         data,
         enableColumnResizing: true,
         enableGrouping: true,
+        enableGlobalFilter: false,
         enableStickyHeader: true,
         enableStickyFooter: true,
+        enableBottomToolbar: false,
         enableDensityToggle: false,
         initialState: {
           density: 'md',
