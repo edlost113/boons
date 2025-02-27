@@ -4,34 +4,27 @@ import {
     type MRT_ColumnDef,
   } from 'mantine-react-table';
   import { data, type Boon } from '../../data';
-  import { Box } from '@mantine/core';
+  import { Box,Stack } from '@mantine/core';
   import { useMemo } from 'react';
 
 const Mobile = () => {
     const columns = useMemo<MRT_ColumnDef<Boon>[]>(
         () => [
           {
-            header: 'Boon Name',
+            header: 'Boons',
             grow: true,
             accessorKey: 'name',
-          },
-          {
-            header: 'Boon Description',
-            accessorKey: 'desc',
-            grow: true,
-          },
-          {
-            header: 'Title Gained',
-            accessorKey: 'title',
-          },
-          {
-            header: 'Requirement',
-            accessorKey: 'pre',
-            grow: true,
-            GroupedCell: ({ cell, row }) => (
-              <Box style={{ color: 'skyblue' }}>
-                <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
-              </Box>
+            Cell: ({ cell }) => (
+              <>
+              <Stack 
+              align="stretch"
+              justify="center"
+              >
+              <Box style={{ color: 'skyblue' }}>{cell.getValue<string>()}</Box>
+              <Box>{cell.row.original.desc}</Box>
+              <Box><strong>Title:</strong> {cell.row.original.title}</Box>
+            </Stack>
+            </>
             ),
           },
           {
@@ -61,7 +54,7 @@ const Mobile = () => {
         initialState: {
           density: 'md',
           expanded: true,
-          grouping: ['lvl', 'pre'],
+          grouping: ['lvl'],
           columnVisibility: { title: false, pre: false },
           pagination: { pageIndex: 0, pageSize: 200 },
           sorting: [{ id: 'lvl', desc: false }],
