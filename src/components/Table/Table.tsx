@@ -4,7 +4,7 @@ import {
     type MRT_ColumnDef,
   } from 'mantine-react-table';
   import { data, type Boon } from '../../data';
-  import { Box, Stack } from '@mantine/core';
+  import { Box } from '@mantine/core';
   import { useMemo } from 'react';
 
 const Table = () => {
@@ -19,6 +19,10 @@ const Table = () => {
             header: 'Boon Description',
             accessorKey: 'desc',
             size: 250,
+          },
+          {
+            header: 'Title Gained',
+            accessorKey: 'title',
           },
           {
             header: 'Requirement',
@@ -57,6 +61,7 @@ const Table = () => {
           density: 'md',
           expanded: true,
           grouping: ['lvl', 'pre'],
+          columnVisibility: { title: false },
           pagination: { pageIndex: 0, pageSize: 200 },
           sorting: [{ id: 'lvl', desc: false }],
         },
