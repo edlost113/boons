@@ -13,6 +13,7 @@ const Mobile = () => {
           {
             header: 'Boons',
             grow: true,
+            filterFn:'customFilterFn',
             enableGrouping: false,
             accessorKey: 'name',
             Cell: ({ cell }) => (
@@ -55,6 +56,13 @@ const Mobile = () => {
     const table = useMantineReactTable({
         columns,
         data,
+        filterFns: {
+          customFilterFn: (row, id, filterValue) => {
+            let result = (row.original.name.toLowerCase().includes(filterValue.toLowerCase()) || row.original.desc.toLowerCase().includes(filterValue.toLowerCase())
+            || row.original.pre.toLowerCase().includes(filterValue.toLowerCase()))
+            return result;
+          },
+        },
         enableColumnResizing: true,
         enableGrouping: true,
         enableGlobalFilter: false,
