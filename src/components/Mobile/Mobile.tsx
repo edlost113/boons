@@ -6,7 +6,7 @@ import {
   import { data, type Boon } from '../../data';
   import { Box,Stack } from '@mantine/core';
   import  { useMemo } from 'react';
-
+  
 const Mobile = () => {
     const columns = useMemo<MRT_ColumnDef<Boon>[]>(
         () => [
@@ -21,12 +21,24 @@ const Mobile = () => {
               <Stack 
               align="stretch"
               justify="center"
+              lightHidden
               >
               <Box style={{ color: 'skyblue' }}>{cell.getValue<string>()}</Box>
               <Box>{cell.row.original.desc}</Box>
               {!cell.row.original.title ?  <></>: <Box><strong style={{ color: 'skyblue' }}>Title:</strong> {cell.row.original.title}</Box>}
               <Box><strong style={{ color: 'skyblue' }}>Prerequisite:</strong> {cell.row.original.pre}</Box>
               <Box><strong style={{ color: 'skyblue' }}>Boon Points:</strong> {cell.row.original.lvl}</Box>
+            </Stack>
+            <Stack 
+              align="stretch"
+              justify="center"
+              darkHidden
+              >
+              <Box>{cell.getValue<string>()}</Box>
+              <Box>{cell.row.original.desc}</Box>
+              {!cell.row.original.title ?  <></>: <Box><strong>Title:</strong> {cell.row.original.title}</Box>}
+              <Box><strong>Prerequisite:</strong> {cell.row.original.pre}</Box>
+              <Box><strong>Boon Points:</strong> {cell.row.original.lvl}</Box>
             </Stack>
             </>
             ),

@@ -31,9 +31,14 @@ const Table = () => {
             accessorKey: 'pre',
             grow: true,
             GroupedCell: ({ cell, row }) => (
-              <Box style={{ color: 'skyblue' }}>
+              <>
+              <Box style={{ color: 'skyblue' }} lightHidden>
                 <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
               </Box>
+              <Box darkHidden>
+                <strong>{cell.getValue<string>()}</strong> ({row.subRows?.length})
+              </Box>
+              </>
             ),
           },
           {
@@ -42,9 +47,14 @@ const Table = () => {
             grow: true,
             enableGrouping: true, 
             GroupedCell: ({ cell, row }) => (
-                <Box style={{ color: 'skyblue' }}>
+              <>
+                <Box style={{ color: 'skyblue' }} lightHidden>
                   <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
                 </Box>
+                <Box darkHidden>
+                <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
+              </Box>
+              </>
               ),
           }
         ],[]);
