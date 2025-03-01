@@ -3,17 +3,13 @@ import { ActionIcon } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
 
 const ColorSchemeToggle = () => {
-  const [colorScheme, setColorScheme] = useLocalStorage<
-    'light' | 'dark'
-  >({
+  const [colorScheme, setColorScheme] = useLocalStorage<'light' | 'dark'>({
     key: 'color-scheme',
     defaultValue: 'light',
   });
 
   const toggleColorScheme = () =>
-    setColorScheme((current) =>
-      current === 'dark' ? 'light' : 'dark'
-    );
+    setColorScheme((current) => (current === 'dark' ? 'light' : 'dark'));
 
   return (
     <ActionIcon onClick={toggleColorScheme}>
