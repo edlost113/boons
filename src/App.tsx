@@ -9,20 +9,6 @@ import Mobile from './components/Mobile/Mobile';
 import { theme } from './theme';
 
 export default function App() {
-
-  const { setColorScheme } = useMantineColorScheme();
-
-  function setStuff() {
-    let urlParams = new URLSearchParams(window.location.search);
-    if ('light' === urlParams.get('scheme')) {
-      setColorScheme('light');
-    } else if ('dark' === urlParams.get('scheme')) {
-      setColorScheme('dark');
-    } else {
-      setColorScheme('auto');
-    }
-  }
-  setStuff();
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 767px)');
@@ -58,7 +44,7 @@ export default function App() {
         </Box>
         <Image src={dancingWizard} style={{ width: '32px', height: '32px' }}></Image>
       </Group>
-      { <Mobile />}
+      {<Mobile />}
     </MantineProvider>
   );
 }

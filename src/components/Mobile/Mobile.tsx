@@ -1,9 +1,23 @@
 import { useMemo } from 'react';
 import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef } from 'mantine-react-table';
-import { Box, Stack } from '@mantine/core';
+import { Box, Stack, useMantineColorScheme } from '@mantine/core';
 import { data, type Boon } from '../../data';
 
 const Mobile = () => {
+  const { setColorScheme } = useMantineColorScheme();
+
+  function setStuff() {
+    let urlParams = new URLSearchParams(window.location.search);
+    if ('light' === urlParams.get('scheme')) {
+      setColorScheme('light');
+    } else if ('dark' === urlParams.get('scheme')) {
+      setColorScheme('dark');
+    } else {
+      setColorScheme('auto');
+    }
+  }
+  setStuff();
+
   const columns = useMemo<MRT_ColumnDef<Boon>[]>(
     () => [
       {
