@@ -3,13 +3,26 @@ import '@mantine/core/styles.css';
 import 'mantine-react-table/styles.css'; //make sure MRT styles were imported in your app root (once)
 
 import { useEffect, useState } from 'react';
-import { Box, Group, Image, MantineProvider } from '@mantine/core';
+import { Box, Group, Image, MantineProvider, useMantineColorScheme } from '@mantine/core';
 import dancingWizard from './assets/dancingwizard.gif';
 import Mobile from './components/Mobile/Mobile';
-import Table from './components/Table/Table';
 import { theme } from './theme';
 
 export default function App() {
+
+  const { setColorScheme } = useMantineColorScheme();
+
+  function setStuff() {
+    let urlParams = new URLSearchParams(window.location.search);
+    if ('light' === urlParams.get('scheme')) {
+      setColorScheme('light');
+    } else if ('dark' === urlParams.get('scheme')) {
+      setColorScheme('dark');
+    } else {
+      setColorScheme('auto');
+    }
+  }
+  setStuff();
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 767px)');
