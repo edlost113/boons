@@ -1,34 +1,19 @@
 import '@mantine/core/styles.css';
-import '@mantine/core/styles.css';
 import 'mantine-react-table/styles.css'; //make sure MRT styles were imported in your app root (once)
 
-import { useEffect, useState } from 'react';
-import { Box, Group, Image, MantineProvider, useMantineColorScheme } from '@mantine/core';
+import { Box, Group, Image, MantineProvider } from '@mantine/core';
 import dancingWizard from './assets/dancingwizard.gif';
 import Mobile from './components/Mobile/Mobile';
 import { theme } from './theme';
 
 export default function App() {
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 767px)');
-    let urlParams = new URLSearchParams(window.location.search);
-    let isMobile = mediaQuery.matches || 'mobile' === urlParams.get('device');
-    setIsMobile(isMobile);
-
-    const handleResize = () => setIsMobile(mediaQuery.matches);
-    mediaQuery.addEventListener('change', handleResize);
-
-    return () => mediaQuery.removeEventListener('change', handleResize);
-  }, []);
-
   return (
     <MantineProvider theme={theme}>
       <Group gap="lg" align="center">
         <Image
           src={dancingWizard}
           style={{ width: '32px', height: '32px', transform: 'scaleX(-1)' }}
-        ></Image>
+        />
         <Box my="sm" style={{ width: '90%' }}>
           <strong>
             These boons are extraordinary powerful and represent the gradual transformation of a
@@ -42,9 +27,9 @@ export default function App() {
             otherwise.
           </strong>
         </Box>
-        <Image src={dancingWizard} style={{ width: '32px', height: '32px' }}></Image>
+        <Image src={dancingWizard} style={{ width: '32px', height: '32px' }} />
       </Group>
-      {<Mobile />}
+      <Mobile />
     </MantineProvider>
   );
 }

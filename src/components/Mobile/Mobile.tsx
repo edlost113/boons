@@ -2,15 +2,15 @@ import { useMemo } from 'react';
 import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef } from 'mantine-react-table';
 import { Box, Stack, useMantineColorScheme } from '@mantine/core';
 import { data, type Boon } from '../../data';
-
+import './Mobile.css';
 const Mobile = () => {
   const { setColorScheme } = useMantineColorScheme();
 
   function setStuff() {
-    let urlParams = new URLSearchParams(window.location.search);
-    if ('light' === urlParams.get('scheme')) {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('scheme') === 'light') {
       setColorScheme('light');
-    } else if ('dark' === urlParams.get('scheme')) {
+    } else if (urlParams.get('scheme') === 'dark') {
       setColorScheme('dark');
     } else {
       setColorScheme('auto');
@@ -89,8 +89,8 @@ const Mobile = () => {
     columns,
     data,
     filterFns: {
-      customFilterFn: (row, id, filterValue) => {
-        let result =
+      customFilterFn: (row, filterValue) => {
+        const result =
           row.original.name.toLowerCase().includes(filterValue.toLowerCase()) ||
           row.original.desc.toLowerCase().includes(filterValue.toLowerCase()) ||
           row.original.pre.toLowerCase().includes(filterValue.toLowerCase());
