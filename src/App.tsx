@@ -45,7 +45,7 @@ export default function App() {
         </Box>
         <Image src={dancingWizard} style={{ width: '32px', height: '32px' }}></Image>
       </Group>
-      {!isMobile ? <Table /> : <Mobile />}
+      { <Mobile />}
     </MantineProvider>
   );
 }

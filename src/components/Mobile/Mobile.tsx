@@ -51,6 +51,22 @@ const Mobile = () => {
           </>
         ),
       },
+      {
+        header: 'Boon Points',
+        accessorKey: 'lvl',
+        grow: true,
+        enableGrouping: true,
+        GroupedCell: ({ cell, row }) => (
+          <>
+            <Box style={{ color: 'skyblue' }} lightHidden>
+              <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
+            </Box>
+            <Box darkHidden>
+              <strong>{cell.getValue<string>()} Boon Points </strong> ({row.subRows?.length})
+            </Box>
+          </>
+        ),
+      },
     ],
     []
   );
