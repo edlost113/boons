@@ -1,10 +1,15 @@
 import { useMemo } from 'react';
-import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef } from 'mantine-react-table';
-import { Box, Stack, useMantineColorScheme } from '@mantine/core';
+import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef, type MRT_RowSelectionState} from 'mantine-react-table';
+import { Box, Stack, useMantineColorScheme, Group } from '@mantine/core';
 import { data, type Boon } from '../../data';
+import { useState, useEffect } from 'react';
+import { ShoppingList } from '../Drawer/Drawer';
 import './Mobile.css';
 const Mobile = () => {
   const { setColorScheme } = useMantineColorScheme();
+  const [rowSelection, setRowSelection] = useState<MRT_RowSelectionState>({}); //ts type available
+  const [totalPoints, setTotalPoints] = useState(0);
+  const [list, setList] = useState<string[]>([]);
 
   function setStuff() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -97,6 +102,13 @@ const Mobile = () => {
         return result;
       },
     },
+    renderTopToolbarCustomActions: () => (
+      <>
+        <Group>
+          <ShoppingList content={list} />
+        </Group>
+      </>
+    ),
     enableColumnResizing: true,
     enableGrouping: true,
     enableGlobalFilter: false,
@@ -104,6 +116,10 @@ const Mobile = () => {
     enableStickyFooter: true,
     enableBottomToolbar: false,
     enableDensityToggle: false,
+    enableMultiRowSelection: true,
+    enableRowSelection: true,
+    onRowSelectionChange: setRowSelection,
+    state: { rowSelection },
     layoutMode: 'grid-no-grow',
     initialState: {
       density: 'md',
@@ -114,7 +130,36 @@ const Mobile = () => {
     },
     mantineToolbarAlertBannerBadgeProps: { color: 'blue', variant: 'outline' },
     mantineTableContainerProps: { style: { maxHeight: 700 } },
+    mantineToolbarAlertBannerProps: { title: calcTotal('Total Boon Points: ') },
   });
+
+  function calcTotal(raw: string) {
+    return `${raw} ${totalPoints}`;
+  }
+
+  useEffect(() => {
+    const selectedRows = table.getSelectedRowModel().rows;
+    buildBoonList(selectedRows);
+  }, [table.getState().rowSelection]);
+  
+  function buildBoonList(selectedRows: any[]) {
+    const boonList: [string] = [''];
+    let totalPoints = 0;
+    selectedRows.forEach((row) => {
+      row.original.lvl = parseInt(row.original.lvl);
+      totalPoints += row.original.lvl;
+      boonList.push(`${row.original.name} - ${row.original.lvl} Boon Points`);
+    });
+    if (totalPoints === 0) {
+      boonList.push('No Boons Selected');
+    } else {
+      boonList.push('________________________');
+      boonList.push(`${totalPoints} Total Boons Points used`);
+    }
+    setList(boonList);
+    setTotalPoints(totalPoints);
+  }
+
   return <MantineReactTable table={table} />;
 };
 
