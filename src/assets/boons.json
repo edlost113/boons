@@ -938,8 +938,8 @@
     {
       "id":118,
       "name": "BOON OF THE GREATER ELEMENTAL LORD",
-      "desc": "As an action you can attempt to strip a creature within 60 ft of you of its elemental immunity based on the element you chose when you chose the boon of the elemental lord. Roll a Charisma save the DC to change immunity to resist is 40, the DC to change resist to normal damage is 36. the DC to change normal to vulnerable is 40. Lasts until the creature takes a long rest.",
-      "title": "ARCHON",
+      "desc": "As an action you can attempt to strip a creature within 60 ft of you of its elemental immunity based on the element you chose when you chose the boon of the elemental lord. Roll a Charisma save the DC to change immunity to resist is 40, the DC to change resist to normal damage is 36. the DC to change normal to vulnerable is 40. Lasts until the creature takes a long rest. Failures cause d10000 wild magic surge",
+      "title": "",
       "pre": "Sorcerer lvl 9& Boon of the Elemental Lord",
       "lvl": 4
     },
