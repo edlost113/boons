@@ -137,7 +137,7 @@ const Mobile = () => {
       sorting: [{ id: 'lvl', desc: false }],
     },
     mantineToolbarAlertBannerBadgeProps: { color: 'blue', variant: 'outline' },
-    mantineTableContainerProps: { style: { height: height } },
+    mantineTableContainerProps: { style: { height: 700 } },
     mantineToolbarAlertBannerProps: { title: calcTotal('Total Boon Points: ') },
   });
 
