@@ -143,8 +143,6 @@ const Mobile = () => {
     return `${raw} ${totalPoints}`;
   }
   useEffect(() => {
-    // Code to run on component load
-    console.log('Component has loaded!');
     const storedSelectedRows = localStorage.getItem('selectedRows');
     if (storedSelectedRows) {
       const parsedSelectedRows = JSON.parse(storedSelectedRows);
@@ -159,7 +157,7 @@ const Mobile = () => {
     }
     return () => {
       const selectedRows = table.getSelectedRowModel().rows;
-      if (selectedRows.length != 0) {
+      if (selectedRows.length !== 0) {
         localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
       }
     };
