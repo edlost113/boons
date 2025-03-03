@@ -1,6 +1,8 @@
 import { Box, Button, Drawer, Stack } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
+import './drawer.css';
+
 function ShoppingList({ content }: any) {
   const [opened, { open, close }] = useDisclosure(false);
 
