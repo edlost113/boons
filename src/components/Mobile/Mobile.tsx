@@ -148,10 +148,13 @@ const Mobile = () => {
     const storedSelectedRows = localStorage.getItem('selectedRows');
     if (storedSelectedRows) {
       const parsedSelectedRows = JSON.parse(storedSelectedRows);
-      const rowSelectionState = parsedSelectedRows.reduce((acc: MRT_RowSelectionState, row: any) => {
-      acc[row.id] = true;
-      return acc;
-      }, {});
+      const rowSelectionState = parsedSelectedRows.reduce(
+        (acc: MRT_RowSelectionState, row: any) => {
+          acc[row.id] = true;
+          return acc;
+        },
+        {}
+      );
       setRowSelection(rowSelectionState);
     }
     return () => {
@@ -164,9 +167,8 @@ const Mobile = () => {
   useEffect(() => {
     const selectedRows = table.getSelectedRowModel().rows;
     buildBoonList(selectedRows);
-      
+
     localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
-  
   }, [table.getState().rowSelection]);
 
   function buildBoonList(selectedRows: any[]) {
