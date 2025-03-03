@@ -15,6 +15,7 @@ const Mobile = () => {
   const { setColorScheme } = useMantineColorScheme();
   const [rowSelection, setRowSelection] = useState<MRT_RowSelectionState>({}); //ts type available
   const [totalPoints, setTotalPoints] = useState(0);
+  const [enableCache, setEnableCache] = useState(false);
   const [list, setList] = useState<string[]>([]);
 
   function setStuff() {
@@ -26,8 +27,9 @@ const Mobile = () => {
     } else {
       setColorScheme('auto');
     }
+
+    setEnableCache(urlParams.get('cache') === 'true');
   }
-  setStuff();
 
   const columns = useMemo<MRT_ColumnDef<Boon>[]>(
     () => [
@@ -143,30 +145,36 @@ const Mobile = () => {
     return `${raw} ${totalPoints}`;
   }
   useEffect(() => {
-    const storedSelectedRows = localStorage.getItem('selectedRows');
-    if (storedSelectedRows) {
-      const parsedSelectedRows = JSON.parse(storedSelectedRows);
-      const rowSelectionState = parsedSelectedRows.reduce(
-        (acc: MRT_RowSelectionState, row: any) => {
-          acc[row.id] = true;
-          return acc;
-        },
-        {}
-      );
-      setRowSelection(rowSelectionState);
+    setStuff();
+    if (enableCache) {
+      const storedSelectedRows = localStorage.getItem('selectedRows');
+      if (storedSelectedRows) {
+        const parsedSelectedRows = JSON.parse(storedSelectedRows);
+        const rowSelectionState = parsedSelectedRows.reduce(
+          (acc: MRT_RowSelectionState, row: any) => {
+            acc[row.id] = true;
+            return acc;
+          },
+          {}
+        );
+        setRowSelection(rowSelectionState);
+      }
     }
     return () => {
-      const selectedRows = table.getSelectedRowModel().rows;
-      if (selectedRows.length !== 0) {
-        localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
+      if (enableCache) {
+        const selectedRows = table.getSelectedRowModel().rows;
+        if (selectedRows.length !== 0) {
+          localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
+        }
       }
     };
   }, []);
   useEffect(() => {
     const selectedRows = table.getSelectedRowModel().rows;
     buildBoonList(selectedRows);
-
-    localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
+    if (enableCache) {
+      localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
+    }
   }, [table.getState().rowSelection]);
 
   function buildBoonList(selectedRows: any[]) {
