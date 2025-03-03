@@ -1,10 +1,16 @@
-import { useMemo } from 'react';
-import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef, type MRT_RowSelectionState} from 'mantine-react-table';
-import { Box, Stack, useMantineColorScheme, Group } from '@mantine/core';
+import { useEffect, useMemo, useState } from 'react';
+import {
+  MantineReactTable,
+  useMantineReactTable,
+  type MRT_ColumnDef,
+  type MRT_RowSelectionState,
+} from 'mantine-react-table';
+import { Box, Group, Stack, useMantineColorScheme } from '@mantine/core';
 import { data, type Boon } from '../../data';
-import { useState, useEffect } from 'react';
 import { ShoppingList } from '../Drawer/Drawer';
+
 import './Mobile.css';
+
 const Mobile = () => {
   const { setColorScheme } = useMantineColorScheme();
   const [rowSelection, setRowSelection] = useState<MRT_RowSelectionState>({}); //ts type available
@@ -141,12 +147,12 @@ const Mobile = () => {
     const selectedRows = table.getSelectedRowModel().rows;
     buildBoonList(selectedRows);
   }, [table.getState().rowSelection]);
-  
+
   function buildBoonList(selectedRows: any[]) {
     const boonList: [string] = [''];
     let totalPoints = 0;
     selectedRows.forEach((row) => {
-      row.original.lvl = parseInt(row.original.lvl);
+      row.original.lvl = parseInt(row.original.lvl, 10);
       totalPoints += row.original.lvl;
       boonList.push(`${row.original.name} - ${row.original.lvl} Boon Points`);
     });
