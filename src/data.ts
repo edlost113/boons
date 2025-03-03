@@ -8,4 +8,6 @@ export type Boon = {
   lvl: number;
   title?: string;
   pre?: string;
+  tier?: string;
+  why?: string;
 };

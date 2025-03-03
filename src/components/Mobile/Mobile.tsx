@@ -7,8 +7,8 @@ import {
 } from 'mantine-react-table';
 import { Box, Group, Stack, useMantineColorScheme } from '@mantine/core';
 import { data, type Boon } from '../../data';
-import { ShoppingList } from '../Drawer/Drawer';
-
+import { ShoppingList } from '../Drawer/ShoppingList';
+import { TierInfo } from '../Drawer/TierInfo';
 import './Mobile.css';
 
 const Mobile = () => {
@@ -57,6 +57,7 @@ const Mobile = () => {
               <Box>
                 <strong style={{ color: 'skyblue' }}>Boon Points:</strong> {cell.row.original.lvl}
               </Box>
+              <TierInfo content={cell.row.original} />
             </Stack>
             <Stack align="stretch" justify="center" darkHidden>
               <Box>{cell.getValue<string>()}</Box>
@@ -74,6 +75,7 @@ const Mobile = () => {
               <Box>
                 <strong>Boon Points:</strong> {cell.row.original.lvl}
               </Box>
+              <TierInfo content={cell.row.original} />
             </Stack>
           </>
         ),
