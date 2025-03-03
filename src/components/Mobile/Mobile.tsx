@@ -102,7 +102,7 @@ const Mobile = () => {
     columns,
     data,
     filterFns: {
-      customFilterFn: (row, filterValue) => {
+      customFilterFn: (row, id, filterValue) => {
         const result =
           row.original.name.toLowerCase().includes(filterValue.toLowerCase()) ||
           row.original.desc.toLowerCase().includes(filterValue.toLowerCase()) ||
