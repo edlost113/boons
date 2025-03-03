@@ -6,7 +6,6 @@ import {
   type MRT_RowSelectionState,
 } from 'mantine-react-table';
 import { Box, Group, Stack, useMantineColorScheme } from '@mantine/core';
-import { useViewportSize } from '@mantine/hooks';
 import { data, type Boon } from '../../data';
 import { ShoppingList } from '../Drawer/Drawer';
 
@@ -17,7 +16,6 @@ const Mobile = () => {
   const [rowSelection, setRowSelection] = useState<MRT_RowSelectionState>({}); //ts type available
   const [totalPoints, setTotalPoints] = useState(0);
   const [list, setList] = useState<string[]>([]);
-  const { height, width } = useViewportSize();
 
   function setStuff() {
     const urlParams = new URLSearchParams(window.location.search);
