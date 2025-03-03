@@ -142,10 +142,31 @@ const Mobile = () => {
   function calcTotal(raw: string) {
     return `${raw} ${totalPoints}`;
   }
-
+  useEffect(() => {
+    // Code to run on component load
+    console.log('Component has loaded!');
+    const storedSelectedRows = localStorage.getItem('selectedRows');
+    if (storedSelectedRows) {
+      const parsedSelectedRows = JSON.parse(storedSelectedRows);
+      const rowSelectionState = parsedSelectedRows.reduce((acc: MRT_RowSelectionState, row: any) => {
+      acc[row.id] = true;
+      return acc;
+      }, {});
+      setRowSelection(rowSelectionState);
+    }
+    return () => {
+      const selectedRows = table.getSelectedRowModel().rows;
+      if (selectedRows.length != 0) {
+        localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
+      }
+    };
+  }, []);
   useEffect(() => {
     const selectedRows = table.getSelectedRowModel().rows;
     buildBoonList(selectedRows);
+      
+    localStorage.setItem('selectedRows', JSON.stringify(selectedRows));
+  
   }, [table.getState().rowSelection]);
 
   function buildBoonList(selectedRows: any[]) {
