@@ -122,7 +122,7 @@ const Mobile = () => {
     enableGlobalFilter: false,
     enableStickyHeader: true,
     enableStickyFooter: true,
-    enableBottomToolbar: false,
+    enableBottomToolbar: true,
     enableDensityToggle: false,
     enableMultiRowSelection: true,
     enableRowSelection: true,
@@ -137,7 +137,7 @@ const Mobile = () => {
       sorting: [{ id: 'lvl', desc: false }],
     },
     mantineToolbarAlertBannerBadgeProps: { color: 'blue', variant: 'outline' },
-    mantineTableContainerProps: { style: { height: 700 } },
+    mantineTableContainerProps: { style: { height: '72vh' } },
     mantineToolbarAlertBannerProps: { title: calcTotal('Total Boon Points: ') },
   });
 
