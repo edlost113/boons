@@ -3,7 +3,7 @@ import { useDisclosure } from '@mantine/hooks';
 
 import './drawer.css';
 
-function TierInfo({ content, info }: { content: any; info: any }) {
+function TierInfo({ content, info, person }: { content: any; info: any, person: any }) {
   const [opened, { open, close }] = useDisclosure(false);
 
   return (
@@ -179,7 +179,7 @@ function TierInfo({ content, info }: { content: any; info: any }) {
       </Drawer>
 
       <Anchor variant="filled" onClick={open}>
-        Laurel's Corner
+      {person} Corner
       </Anchor>
     </>
   );
