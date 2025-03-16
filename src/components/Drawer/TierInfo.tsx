@@ -183,10 +183,14 @@ function TierInfo({ content, info, person }: { content: any; info: any; person: 
             <strong>{content.name}</strong>
           </Box>
           <Box dangerouslySetInnerHTML={{ __html: content.desc }} />
-          <Box>
-            <strong>Tier:</strong> S tier
-          </Box>
-          <Box>some text why</Box>
+          {!info.tier ? (
+            <></>
+          ) : (
+            <Box>
+              <strong style={{ color: 'skyblue' }}>Tier:</strong> {info.tier}
+            </Box>
+          )}
+          {!info.why ? <></> : <Box dangerouslySetInnerHTML={{ __html: info.why }} />}
         </Stack>
       </Drawer>
 

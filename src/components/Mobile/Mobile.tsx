@@ -126,11 +126,13 @@ const Mobile = () => {
     data,
     filterFns: {
       customFilterFn: (row, id, filterValue) => {
-        const result =
-          row.original.name.toLowerCase().includes(filterValue.toLowerCase()) ||
-          row.original.desc.toLowerCase().includes(filterValue.toLowerCase()) ||
-          row.original.pre.toLowerCase().includes(filterValue.toLowerCase());
-        return result;
+        if (id) {
+          const result =
+            row.original.name.toLowerCase().includes(filterValue.toLowerCase()) ||
+            row.original.desc.toLowerCase().includes(filterValue.toLowerCase()) ||
+            row.original.pre.toLowerCase().includes(filterValue.toLowerCase());
+          return result;
+        }
       },
     },
     renderTopToolbarCustomActions: () => (
