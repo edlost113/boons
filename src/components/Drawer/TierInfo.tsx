@@ -176,13 +176,13 @@ function TierInfo({ content, info, person }: { content: any; info: any; person: 
               <strong style={{ color: 'skyblue' }}>Tier:</strong> {info.tier}
             </Box>
           )}
-          {!info.why ? <></> : <Box>{info.why}</Box>}
+          {!info.why ? <></> : <Box dangerouslySetInnerHTML={{ __html: info.why }} />}
         </Stack>
         <Stack gap="xs" justify="flex-start" darkHidden>
           <Box>
             <strong>{content.name}</strong>
           </Box>
-          <Box>{content.desc}</Box>
+          <Box dangerouslySetInnerHTML={{ __html: content.desc }} />
           <Box>
             <strong>Tier:</strong> S tier
           </Box>

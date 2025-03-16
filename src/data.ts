@@ -1,5 +1,5 @@
 import myData from './assets/boons.json';
-import boonData from './assets/tierlist.json';
+import boonData from './assets/tierlist_Markus.json';
 
 export const data: Boon[] = myData;
 export const dataBoonInfo: BoonInfo[] = boonData;

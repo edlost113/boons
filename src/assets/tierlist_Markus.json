@@ -1,0 +1,782 @@
+[
+  {
+    "id" : 1,
+    "name" : "BOON OF COMBAT PROWESS",
+    "tier" : "A",
+    "why" : "This boon is intended for melee-based martials. Having 3 certain hits per 1-2 encounters, depending on how your table is run, is a great way to increase your reliability in making multiple weapon attacks. Use this to finish off a very-low health enemy with a smite, or to attempt to break a spellcaster’s concentration on a debilitating spell, or if you are suffering from severe attack penalties like disadvantage. This is especially excellent if you are using the “Great Weapon Master” feat to allow you to be more comfortable applying the -5 to hit penalty on all of your attacks while you still have charges of this boon remaining. An excellent boon for many builds, A-tier."
+  },
+  {
+    "id" : 2,
+    "name" : "BOON OF DIMENSIONAL TRAVEL",
+    "tier" : "D",
+    "why" : "Positioning is a very significant tactical element to DnD combat, and Misty Step is a very good positioning spell. However, this boon requires an action to cast, making it significantly weaker than Misty Step, especially considering you can dash for thirty feet with your action instead. However, you can also use this to escape grapples, move through windows, walls, and prison cells, so it’s not totally useless. But, for a boon, almost totally useless is still D-tier. If it were a bonus action to cast, this boon would work well on a non-caster who fights in melee range to be able to enter and escape melee range well, which would bump it up to B-tier, but there are much better boons to take here."
+  },
+  {
+    "id" : 3,
+    "name" : "BOON OF FATE",
+    "tier" : "A",
+    "why" : "Features manipulating die rolls are some of the most powerful in the game. This boon is very similar to bardic inspiration, with a few key differences: first, it does not require a reaction or bonus action to use, increasing its effectiveness on characters with a booked-and-blessed gameplay loop. Since you only get one per short rest, you have to know when it is most impactful, likely when an enemy or ally is confronted with a powerful save-or-suck effect against which it succeeds or fails by 5 or less, or for important ability checks, like those for dispel magic or counterspell. This boon is limited also by sight, 60 ft range, and the randomness in the die roll, so easily A-tier."
+  },
+  {
+    "id" : 4,
+    "name" : "BOON OF FORTITUDE",
+    "tier" : "A",
+    "why" : "Short and sweet, this boon boosts your hit points by an equivalent of ~4-6 levels. This is proportionately more impactful on small hit die casters, but hopefully, if you play such a character, you should have figured out a way to avoid damage by now. If you find yourself often knocked unconscious or can’t afford to (because you’re your party’s primary healer), this boon is great. It also works well with barbarians, who get twice as much out of this boon, or any close-range martial for whom HP is an important resource. A solid boon anyone can make use of. A-tier."
+  },
+  {
+    "id" : 5,
+    "name" : "BOON OF HIGH MAGIC",
+    "tier" : "A",
+    "why" : "Spellcasting is (arguably) the most powerful feature in DnD, and a spellcaster’s most valuable resource are their high-level spell slots. High-level spells can make-or-break encounters and flat-out solve many problems your party faces. This is best used on monoclass or near-monoclass full casters, who get high-level spells and spell slots the fastest. It can be especially good on warlocks, who have precious-few spell slots. Getting a second use of Wall of Force, Banishment, Hold Monster, Mass Suggestion, etc. is incredible. However, this feat competes with a part of Boon of Spell Recall, which provides a similar effect, though, only at the same level, making this marginally better at levels 1-16 if you use spells that can be upcast. However, on non-prepared spellcasters, though, the secondary effect is useless, so this feat is better. Since this is better than Recall for some classes, A-tier."
+  },
+  {
+    "id" : 6,
+    "name" : "BOON OF IMMORTALITY",
+    "tier" : "D",
+    "why" : "You are an adventurer. If you believe you’ll die of old age, I envy your optimism. Only ghosts can age you, so unless your campaign is based on Ghostbusters, there is no mechanical benefit to taking this boon. D-tier."
+  },
+  {
+    "id" : 7,
+    "name" : "BOON OF INVINCIBILITY",
+    "tier" : "A",
+    "why" : "A sweet and simple defensive boon, requiring no action-resources and recharging on a short rest. This is great for several high-damage abilities, like a dragon’s breath weapon, or critical paladin smite. If you have low DEX saves or low HP, this makes an excellent addition. A-tier."
+  },
+  {
+    "id" : 8,
+    "name" : "BOON OF IRRESISTIBLE OFFENSE",
+    "tier" : "C",
+    "why" : "The effectiveness of this boon depends entirely on the type of enemies you face. The feat Elemental Adept can help with one of these damage types, if you specialize in one, like a draconic sorcerer or tempest cleric, so if this is the case, I’d find a way to fit that feat into your build instead. Physical damage resistance is more common, though you should have a magic weapon at this point. If you are a damage-focused character, and your campaign has a lot of these enemies, this boon is nice, but since it’s so situational, C-tier."
+  },
+  {
+    "id" : 9,
+    "name" : "BOON OF LUCK",
+    "tier" : "D",
+    "why" : "This is one-half of the effect of Boon of Fate, but just for you. Unless you are exceptionally selfish, this is outclassed. D-tier."
+  },
+  {
+    "id" : 10,
+    "name" : "BOON OF MAGIC IMMUNITY",
+    "tier" : "B",
+    "why" : "This is a unique boon that comes in handy if you face a lot of spellcasters, or monsters with Innate Spellcasting. If you are in this type of campaign, this adds another dimension to survivability. Even at low levels, some of the most annoying spells: command, hold person, counterspell, are nullified against you. This boon’s situational nature would normally place it in C-tier, but since the effect is so powerful (and passive!), this is getting bumped up to B-tier."
+  },
+  {
+    "id" : 11,
+    "name" : "BOON OF MAGIC RESISTANCE",
+    "tier" : "C",
+    "why" : "This boon is also good in spellcaster-heavy campaigns but works in a wider variety of situations. However, this is the same effect as a Spellguard Shield (almost the same as Mantle of Spell Resistance) , a very rare magic item. It does free up an attunement slot, but unless magic items are hard to come by, (which would be odd in a setting with enough spellcasters to make this boon worthwhile) this boon is not worth taking. C-Tier"
+  },
+  {
+    "id" : 12,
+    "name" : "BOON OF PEERLESS AIM",
+    "tier" : "A",
+    "why" : "This is the ranged counterpart to Boon of Combat Prowess, and is on equal footing, as long as you interpret it as you can add the bonus after you roll, or better yet, after you miss. This helps if you really need to land a sneak attack, if your enemy has any amount of cover, or if you have disadvantage. This also functions great at Sharpshooter assurance, to keep the -5 penalty, +10 damage on all attacks. However, it doesn’t mitigate critical misses, which sucks. A-tier regardless."
+  },
+  {
+    "id" : 13,
+    "name" : "BOON OF PERFECT HEALTH",
+    "tier" : "C",
+    "why" : "If poison and disease come up a lot at your table, this may be good, but it certainly hasn’t on any table I’ve played on. The main reason you’d want advantage on CON saves is for concentration, which is a part of the Warcaster feat. CON saves can be important otherwise, but only in some encounters, so C-tier."
+  },
+  {
+    "id" : 14,
+    "name" : "BOON OF PLANAR TRAVEL",
+    "tier" : "C",
+    "why" : "This boon gives you a limited version of a seventh-level spell, and removes a relatively minor material component. This is a decent escape option, but you’d leave your party behind, which is not an ideal situation. You may get more benefit if you have a safe home base on another plane, but you’ll typically want to stay with your party, unless everyone takes this boon, but that will likely be a hard sell considering other options. Overall, situational, but can be planned around. C-tier"
+  },
+  {
+    "id" : 15,
+    "name" : "BOON OF QUICK CASTING",
+    "tier" : "B",
+    "why" : "There are a few low-level spells that this boon is good for. It is even better if your DM lets you keep the spell a bonus action if you upcast it. It can help a Devil’s Sight warlock build set up Darkness or Hunger of Hadar more quickly, so you can get straight to blasting. It can help a Half-casting martial set up their best concentration spells (e.g. Bless for Paladins, Spike Growth for Rangers) and get straight to attacking. You are still limited to cantrips as your action if you use this, however, unless you take the Spelldriver feat, an excellent feat that synergizes well with this. If you have a good enough option and a plan for this feat, the benefit to your action economy is great, letting you do more at the most impactful first few rounds of a fight. B-tier."
+  },
+  {
+    "id" : 16,
+    "name" : "BOON OF RECOVERY",
+    "tier" : "A",
+    "why" : "A similar HP buff like Fortitude, but this is best taken by high hit-die martials, especially barbarians, whose HP often counts double when raging. HP is the premier martial resource, so unless you have an incredible healer to top you off to a higher max HP, an oft-downed martial should take this feat over Fortitude. A-tier."
+  },
+  {
+    "id" : 17,
+    "name" : "BOON OF RESILIENCE",
+    "tier" : "C",
+    "why" : "Become a pseudo-barbarian with all the durability, and none of the rage. The weakness of this boon is given in its second clause. As you advance beyond tier 2 (which is likely when you start getting boons), nonmagical physical damage becomes less and less common. This feat goes best on a frontliner planning to take a lot of hits but is replicated by spells like Stoneskin. This effect, which becomes less and less useful is better sought out through that spell. For situational use, C-tier."
+  },
+  {
+    "id" : 18,
+    "name" : "BOON OF RESISTANCE",
+    "tier" : "B",
+    "why" : "Another limited defensive boon. Unlike comparable options, though, this recharges over long rest. Saves from damaging effects are better protected by Boon of Invulnerability, so this is really best for debilitating save-or-suck effects like paralyzed, blinded, petrified, etc. When these effects come up, though, and for many monsters, once you succeed on a saving throw against their effect, you become immune. In those cases, this makes for an excellent boon. It being situational would put it in C-tier, but, since it’s so reliable, and even in cases where it’s not essential, it is still pretty good to succeed one saving throw, I’ll bump it up to B-tier."
+  },
+  {
+    "id" : 19,
+    "name" : "BOON OF SKILL PROFICIENCY",
+    "tier" : "B",
+    "why" : "Depending on how often skill checks come up in your game, especially niche skill checks, like Animal Handling or Medicine, this can be a great asset to your party, especially if you are lacking in skill monkeys. Where this really shines, though, is when combined with rogue’s Reliable Talent, making the absolute minimum base roll on any skill check a 14-16. If you have things like bardic inspiration, or guidance available, this is a great utility pick to pass a lot of skill checks and fill in gaps in your party. B-tier."
+  },
+  {
+    "id" : 20,
+    "name" : "BOON OF SPEED",
+    "tier" : "A",
+    "why" : "For most species, this doubles your walking speed. If your DM lets you use this boon on effects that grant flying or swimming speed “equal to your walking speed,” this is even better. If you are a frontline build trying to close the gaps between you and an enemy, this is great. Kite your enemies as a ranged build. For classes with increases to movement speed, like monk or barbarian, this feat stacks. If you build a character based on speed (or take the One Punch monk boon, this boon slots very well. A-tier."
+  },
+  {
+    "id" : 21,
+    "name" : "BOON OF SPELL MASTERY",
+    "tier" : "A",
+    "why" : "This is an 18th-level wizard feature, but now anyone can have it for the low, low price of one boon-point! This boon really shines for reaction defensive spells and is especially good on casters without Counterspell or other reaction-hogging class features. It’s also great on partial casters, preserving their limited spell slots. Take shield to trade your reaction for an indefinite +5 to AC. Take silvery barbs to negate crits and double the chances of success on your party’s save-or-suck effects. Another great option is Gift of Alacrity (for extra initiative indefinitely, for everyone). Note that as written, you can use spells from Magic Initiate or Fey/Shadow Touched to get one of the best defensive spells on an otherwise non-spellcasting character. This boon almost makes me want to make an S+ tier, but alas, S-tier."
+  },
+  {
+    "id" : 22,
+    "name" : "BOON OF SPELL RECALL",
+    "tier" : "S",
+    "why" : "The first feature of this boon is good for the same reason as Boon of High Magic, so it would on its own be worthy of A-tier. However, this gives a prepared spellcaster, like a cleric, druid, or (to a lesser extent) wizard with a massive list of known spells an unparalleled boost in versatility, rewarding thorough knowledge of your class’s spell list. So many spells are so situational that they are not worth preparing but are invaluable in niche situations. If you are a prepared spell-caster, this the second most powerful boon you can take. S-tier."
+  },
+  {
+    "id" : 23,
+    "name" : "BOON OF THE FIRE SOUL",
+    "tier" : "B",
+    "why" : "Fire is one of the more common damage types in the game, and bypassing it completely is already a great, albeit situational, benefit, but where this boon really shines is being immune to friendly fire. Let your wizard be a wizard and fireball you and the enemies swarming you. Be a barbarian and drag your foes into your sorcerer’s wall of fire, kicking and screaming. Have an ally cast Heat Metal on your armor to deter any monster from swallowing or holding you. You likely have better damage options than burning hands at this point in your career, so that is mainly for starting fires out of combat. Become an arsonist! The world is your tinder! If you employ one of these strategies, you will get excellent use out of this boon. You do need to build/plan around this to get the most use out of it, so B-tier. However, if you can cast elemental spells, Boon of Energy Investment is better for free transmuted spell (-poison and acid)."
+  },
+  {
+    "id" : 24,
+    "name" : "BOON OF THE NIGHT SPIRIT",
+    "tier" : "C",
+    "why" : "Unless you are fleeing combat, you won’t want to use this in combat. Before, perhaps, but not in. This is really best used for scouting, spying, infiltration, and other out-of-combat nighttime skullduggery. However, you could always have a friend cast invisibility on you, so this enables long-term stealth missions and spying. Depending on your campaign needs, this could be a good pick. C-tier."
+  },
+  {
+    "id" : 25,
+    "name" : "BOON OF THE STORMBORN",
+    "tier" : "B",
+    "why" : "This is most comparable to Fire Soul, but thunder and lightning are less common, though you do get two immunities. This is good if you have a tempest cleric that likes to throw down max-damage AOE’s in your face, so this can be synergistic with that, but there aren’t good analogues to the wall of fire strategy, unless you’re using Transmuted Spell or a Scribes Wizard. A marginal benefit is that thunder and lightning are also less often resisted, so it might be decent with that in mind. A little worse than Fire Soul. B-tier."
+  },
+  {
+    "id" : 26,
+    "name" : "BOON OF THE UNFETTERED",
+    "tier" : "C",
+    "why" : "Being grappled kinda sucks. For some monsters, being swallowed comes after being grappled. The utility of this boon depends on how often your DM uses grappling. However, teleportation magic like misty step can also help you out of it, and non-spellcasters will likely have a decent shot at making their skill check with higher DEX and STR scores. It can get you out of dimensional shackles though, so if you often find yourself arrested, maybe? Situational, but passive. High C-tier."
+  },
+  {
+    "id" : 27,
+    "name" : "BOON OF TRUESIGHT",
+    "tier" : "C",
+    "why" : "True Seeing is a 6th level spell, but lasts only an hour. This may help you see through a surprise villain’s illusory ruse and help with invisible enemies and/or magical darkness, but it is situational. C-tier"
+  },
+  {
+    "id" : 28,
+    "name" : "BOON OF UNDETECTABILITY",
+    "tier" : "B",
+    "why" : "Protection from divination is great for all of the spies and paranoid adventurers out there. Free up an attunement slot from an Amulet of Proof Against Detection and Location, and also get… yet another stealth bounded accuracy-breaking feature. Cast Pass Without Trace to give yourself a +20 to stealth. If your party uses stealth and surprise often, consider having as many of you as possible take this boon. Your enemies will never know what hit them. However, this is a specific strategy not always agreed upon at tables, especially if you have heavy armor/low DEX characters, so I’m placing this in B-tier."
+  },
+  {
+    "id" : 29,
+    "name" : "BOON OF ARTIFACT AFFINITY",
+    "tier" : "A",
+    "why" : "You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.”<br /><br />The utility of this boon depends entirely on the availability and quality of magic items in your campaign. In a magic-item abundant setting, you may find yourself in the enviable position of having too many great magic items. This solves that problem somewhat. Also notice the need to not be holding the item you’ve selected. If you are a gish spellcaster struggling with the shield-sword-spell-focus juggling act and refuse to take Warcaster, this allows you to use your spell focus hands-free. Depending on how far your DM lets you go, you could use a two handed weapon and a shield simultaneously. Make sure when you choose this feat that the magic item you choose is one that will stay with you for life! Best candidates are +3 spellcasting foci, very nice artifacts you may have required, stat-setting items like belts of giant strength, headbands of intellect, or other essential items. Only take this boon if you have such an item. If you do, A-tier.<br /><br />Note: Besides being mechanically excellent, may I invite you to consider that this is aesthetically sick as hell? Imagine holding out your hand and a sick-ass sword appears, like She-Ra, or hold up your fist and have a magic friggin knife slots out of your wrist for a sneak attack. Transform into your Robe of the Archmagi, magical girl style! Eat a magic drum, and always have accompaniment anytime you burst into song. Going to a party? No weapons allowed? You are the weapon! Hell yeah!"
+  },
+  {
+    "id" : 30,
+    "name" : "BOON OF ENERGY INVESTMENT",
+    "tier" : "C",
+    "why" : "Immunity is nice, so this is like Fire Soul and Stormborn, but adds in a free transmuted spell. This is decent on a non-sorcerer blaster, but competes with Spell Mastery, Spell Recall, and High Magic. You may forgo Burning Hands to take this instead, if you like the flavor. C-tier"
+  },
+  {
+    "id" : 31,
+    "name" : "BOON OF RESURRECTION",
+    "tier" : "B",
+    "why" : "If your table runs resurrection magic as a serious, check-requiring, hard-to-repeat task, this boon would be pretty good. However, the character who would benefit most from this would be the Revivifier, so this requires two healers in your party, which is still not a bad idea. If you are a dedicated resurrector, this may be worth considering. B-tier."
+  },
+  {
+    "id" : 32,
+    "name" : "BOON OF TITANS GRIP",
+    "tier" : "B",
+    "why" : "This lets a melee character do two things: Wield a great sword and use great weapon master and a shield, or make an extra bonus action great weapon attack each turn. Depending on whether you need defense or damage, this boon is excellent for any martial with Great Weapon Master. B-Tier"
+  },
+  {
+    "id" : 33,
+    "name" : "BOON OF DIVINE SIZE",
+    "tier" : "B",
+    "why" : "Unbeatable for grapple builds. You’ll likely be fighting large or huge or gargantuan monsters, stack this with potions of growth and grapple away. Outside of this, not much benefit. B-Tier"
+  },
+  {
+    "id" : 34,
+    "name" : "BELOVED OF VALARIAN",
+    "tier" : "B",
+    "why" : "A once-a-day CR5 mount with pretty good support abilities, but abysmal survivability, like most mounts. This can be mitigated by the mounted combatant feat, but at this level, you’ll likely want a flying mount. However, the prerequisite for this is so niche that a character who fits it would jump at the chance to ride around on a unicorn. B-Tier. However, if you’re an elf or half-elf, take Skylord if you want the most powerful option."
+  },
+  {
+    "id" : 35,
+    "name" : "WYRM KNIGHT",
+    "tier" : "D",
+    "why" : "A once/day elemental blast on a martial and a passive AC bonus would be nice, if you’re at a point in the campaign where money is no object. If you have this sum, it would be better spent on a very-rare/legendary magic item, and leave the blasting to your caster friends. D-Tier."
+  },
+  {
+    "id" : 36,
+    "name" : "SCION OF ARKHOSIA",
+    "tier" : "D",
+    "why" : "Add a non-physical elemental damage resistance and a new type of breath weapon. With some boons giving immunities, this just is not comparable for elemental types. But, if you include gem dragons, and your enemies are inclined to one damage type, like radiant for celestials, or necrotic for undead, etc., this could have marginal use, but it’s so far below any other boon here that I’d have to give it a D-Tier ranking."
+  },
+  {
+    "id" : 37,
+    "name" : "DUNGEON LORD",
+    "tier" : "D",
+    "why" : "Another expensive feat, and this is vague. Could you use this as a farm for more money/loot? The lair actions are best if you’re your own plot-relevant enemies in, but otherwise, most adventurers go out and adventure, leaving their lairs behind them. If you have long swathes of time away from the dungeon, and it doesn’t get totally conquered, this may get you some money, but kind of is an adventure where the DM and player switch roles. If you are a forever DM, dupe your player into taking this, and you’ll finally get to be a player! >:D-Tier"
+  },
+  {
+    "id" : 38,
+    "name" : "LEGENDARY GENERAL",
+    "tier" : "A",
+    "why" : "If your party relies on a Channel Divinity feature, or a Druid really needs wild shapes, or a warlock or monk didn’t get their hourly naptime (check with your DM whether this would restore all Ki-points and/or warlock spell slots), or your fighter wants an extra action, or your bard is running low on inspiration, this feature can come in handy. Depending on how much your DM lets this restore, it could be between S- or B-Tier. This is an unselfish boon, so you’ll want to coordinate this with your party. Maybe strike a deal with your party’s Hexblade to take Fire Soul so they can stand in your Wall of Fire. If you’re mainly long-rest classes, though, I wouldn’t take this. (Unless you want to take Mythic Leader later…). "
+  },
+  {
+    "id" : 39,
+    "name" : "SKYLORD",
+    "tier" : "S",
+    "why" : "Another mount, this time a slightly lower CR, but much better mobility, which is really what a mount is all about. This one is also beefed up, with the AC increase being the biggest change. If your DM also allows you to put barding on it, this mount will have a higher AC than you. 10 speed and several condition immunities are excellent as well, but the cream of the crop is the bonus action lightning bolt, which doesn’t seem to have a use limit. If you need all 100 feet, though, it becomes less useful. But if you can use this boon to its fullest, easy S-Tier. "
+  },
+  {
+    "id" : 40,
+    "name" : "HANDS OF THE KING",
+    "tier" : "C",
+    "why" : "Healing in DnD, is generally not the best, and touch range limits this ability even more. Taking this boon once will be worse than Heal, so if you’re nearing 6th level spells, I’d forgo it. Two levels, and we’re getting somewhere. Greater restoration cures a bunch of extra nasty conditions, including exhaustion, 60 hp on top of that, and it’s like you’re casting Heal and Greater Restoration at the same time. But please stop there. Raise Dead will inflict a nasty debuff (-4 to all rolls), so it’s not a good combat option. Just take a different boon and keep some Revivify diamonds handy. C-Tier, A-Tier, and D-Tier."
+  },
+  {
+    "id" : 41,
+    "name" : "BOON OF THE RAVAGER",
+    "tier" : "A",
+    "why" : "As a barbarian, you likely have poor mental saves, leaving you vulnerable to debilitating conditions like paralyzed, stunned, charmed, or frightened. A lot of these can prevent you from attacking, forcing you out of your rage and wasting one of your rage charges. Some subclass features can mitigate these, but absent of those, shirking them off at the beginning of your turn makes sure they never rob you of a turn again. Also, if Exhaustion is considered a condition, you can use this to mitigate Frenzy’s exhaustion, if you are a berserker. The passive healing is nice, and twice as effective on a barbarian, but likely won’t outpace damage taken at this level. These features are useful, especially if you find yourself at the mercy of these conditions often, but there are several combinations of 1st level boons that a barbarian may want more (Boon of Recovery, Boon of Fortitude, etc.). A-Tier."
+  },
+  {
+    "id" : 42,
+    "name" : "BOON OF THE TRUESPEAKER",
+    "tier" : "A",
+    "why" : "This is an excellent boon that really helps you get more mileage out of your bardic inspiration, but it can be hard to pull off consistently. If your party has a large melee contingent (like ones that hover around a Paladin’s Aura of Protection), this will work great. It’s especially nice if one of your subclass features buffs bardic inspiration, like Eloquence bard’s Unfailing Inspiration, and Creation bard’s Mote of Potential. Also, more magical secrets is always nice, and makes your bard more versatile. A-Tier "
+  },
+  {
+    "id" : 43,
+    "name" : "BOON OF THE SONG OF FATE",
+    "tier" : "S",
+    "why" : "One of the more frustrating aspects of Bardic Inspiration is when they are used and a trivial one or two is rolled. This takes the uncertainty out of that, adding a +10/12 to allies’ roll, skyrocketing chances of success. This is also great with Lore bard’s Cutting Words to ensure enemy spellcasters’ Counterspells fail and enemies’ attacks miss, or Eloquence bard’s Unsettling Words, giving -10-12 to your litany of save-or-sucks, burning through your enemies’ legendary resistances like a hot knife through butter. Any bard can benefit, and some bards become simply broken with this feat. S-Tier."
+  },
+  {
+    "id" : 44,
+    "name" : "BOON OF THE RIGOROUS RITE",
+    "tier" : "B",
+    "why" : "Features that give you resistance to damage you’re dealing are generally lackluster because typically, enemies you know will focus on one damage type will also be resistant or immune to it. This is still a good feature so you can focus on the goons while having a contingency for a dragon’s breath weapon, for instance, but it can be tricky to get the most out of. In addition, you will likely only have three options for immunity, so its usefulness can be situational. The free action portion of this boon can be great for unclogging your action economy if you use a lot of blood curses that take bonus actions to activate, so with these situational/build-dependent features combined, B-Tier."
+  },
+  {
+    "id" : 45,
+    "name" : "BOON OF THE SANGUINE CURSE",
+    "tier" : "B",
+    "why" : "Since the blood hunter’s whole schtick is using their hit points as a resource to fuel their blood curses, this is a great way to make those features resourceless. The healing won’t mean much at this level, but it is still nice. The blood curse range increase is great for ranged builds since the curses have a range of 30 feet, a dangerous place to put your archer. Else, the benefits here are much better gained by taking Fortitude and Recovery for more hitpoints than would be regained if you used all of your blood maledicts in one fight. (At level 14, 3d10 damage vs. 6d10 healing is a 49.5 HP difference per short rest, which you may not benefit from if you are at or close to full HP, whereas both boons with give you a max 40 HP and 65 HP gained at once per long rest, even more if you boost CON above 16 and/or take Tough, which are both good choices for classes who need HP). For use on ranged characters, B-Tier."
+  },
+  {
+    "id" : 46,
+    "name" : "BOON OF THE ASCENDANT",
+    "tier" : "S",
+    "why" : "Holy shit. Literally. Both of these features are crazy, and combined, *chef’s kiss.* The utility of the first feature depends entirely on your domain spells, making options range from lackluster (shatter, moonbeam, fireball, to name a few) to incredible (bless, command, even healing spells for out-of-combat). The second feature on its own would be incredible. Clerics have so many excellent concentration options that it is hard to choose just one, and removing concentration requirements makes Banishment an auto-win to get rid of bosses (especially extraplanar ones). This lets you concentrate on both Bless and Spirit Guardians and Circle of Power, giving your allies unparalleled buffs in tough encounters while still shredding enemies with your holy blender. Easily S-Tier."
+  },
+  {
+    "id" : 47,
+    "name" : "BOON OF THE EMERGENT PRIMORDIAL",
+    "tier" : "A",
+    "why" : "This boon gives a lot of great options, so I will rate them separately based on what your choice is. The final trait alone is great for if you are often turning into beasts with multi-attack and spending a lot of time in wild shape, so with that alone, this boon is probably B-Tier. The additional options below may bump it up or down.<br /><br />Air Elemental: At high levels, getting some form of fly speed is essential, and 90 feet will allow you to Zoom through the skies and use less mobile wild shapes than usual. Air Form is okay, especially if you need to crawl through tight spaces and don’t want to waste your wild shapes being a bug. Ending your turn in a creatures space not as great if you aren’t an elemental, as you don’t have special abilities to accommodate it, but depending on how your DM rules what shenanigans you can pull off by going into an enemy, this could be interesting. Either way, this option is great, even on spell-focused druids. A-Tier.<br /><br />Earth Elemental: If you spend a lot of time in dungeons and underground, earthglide can come in handy. It also is a pretty good escape/hiding option, especially if you don’t need to breathe. If you are low on health, simply put up a debilitating concentration spell (which druids have plenty of) on your enemies and hide underground. Unless you are exceptionally feeble, you should be able to hold your breath longer than most combats go on. This is a pretty specific strategy, so A-Tier. <br /><br />Fire Elemental: If you spend a lot of time in melee as a Moon druid, this provides nice passive damage to enemies who try to attack you. And set them on fire for free. An excellent option for those builds, B-Tier. <br /><br />Water Elemental: Unless you are doing an underwater campaign, there is no reason to take this over the other options. And, if you are doing such a campaign, you should have figured out a solution for swim speed already. Outclassed, D-Tier."
+  },
+  {
+    "id" : 48,
+    "name" : "BOON OF THE LEVIATHAN",
+    "tier" : "B",
+    "why" : "If you are not a wild-shaping druid, this is unlikely to be worth it, as you would rather have spell-centric boons instead. However, for a wild shaping-druid, this is a great option, but only after you’ve taken the first boon, as options for high CR beasts are few and far between, with the highest being a T-Rex at 8. Since these combined will require many boon points, B-Tier."
+  },
+  {
+    "id" : 49,
+    "name" : "BOON OF THE FOCUSED SHIFTER",
+    "tier" : "B",
+    "why" : "This boon rewards a mood druid’s player for having extensive knowledge of the monster manual. This boon is not good for anyone but moon druids in general. At this level, you will likely be far behind the enemies you face in terms of CR, but many creatures punch well above their CR. I will not go into detail about all of your options, because that would add incredible length to an already-long document. B-Tier."
+  },
+  {
+    "id" : 50,
+    "name" : "BOON OF THE DREADNOUGHT",
+    "tier" : "C",
+    "why" : "Big numbers are always great, but, if you already have a high AC, unless you have some sort of taunt-mechanic, you won’t be focused on for more than 1 or 2 attacks. If this isn’t the case with how your DM runs monsters, go for it. In addition, if you are a lower AC character because you specialize in two-handed weapons, Titan’s Grip will be a better option, as it allows you to wield a +1 shield, giving you the same boost for one less boon point, and even improving it if you can get your hands on +2 or +3 shields.C-Tier"
+  },
+  {
+    "id" : 51,
+    "name" : "BOON OF THE SCALE BREAKER",
+    "tier" : "C",
+    "why" : "If you are facing a lot of dragons, or mostly dragons in your campaign, this feat is a great option to boost your defenses and damage against them, as long as you’re a melee fighter who can fly to catch up to them. If not, this is a bad option. C-Tier."
+  },
+  {
+    "id" : 52,
+    "name" : "BOON OF THE BATTLE CRY",
+    "tier" : "A",
+    "why" : "Another unselfish boon that grants an incredible advantage to your whole party. Again, if you find yourselves often clustered together on the front lines, this gives enemies a great reason to focus on you, and miss you due to your high AC. It also doesn’t mention an action or bonus action to use this boon, nor any recharges, making this incredible buff essentially free. Since this boon depends on your party’s combat plays, it would be B-Tier, but, due to its exceptional strength and unbeatable action economy, I’m rating this A-Tier."
+  },
+  {
+    "id" : 53,
+    "name" : "BOON OF THE ENLIGHTENED FIST",
+    "tier" : "D",
+    "why" : "As a monk, you will generally want to be spending your Ki points. This will give you a nice boost to DPR, especially with flurry of blows, granting you an extra 22 damage with flurry of blows, or 16.5 damage without it. But, since it is so far outpaced by One Punch, I’m unfortunately forced to rate this D-Tier."
+  },
+  {
+    "id" : 54,
+    "name" : "BOON OF THE ONE PUNCH",
+    "tier" : "S",
+    "why" : "To outpace The Enlightened Fist’s damage, you will want an extra 50-60 movement speed to spend on this. It also benefits from less reliance of accuracy, allowing you to get this by hitting only one attack. If you are built for speed, using classic features such as Haste or Tabaxi’s Feline Agility. To ramp up your already much-improved movement speed, you can do insane damage every (other) round with this. As mentioned before, it synergizes well with Boon of Speed.<br /><br />For example, for a tabaxi with 12 levels of monk and Boon of Speed, you have a base walking speed of 80 feet. If you drink a potion of speed or ask your wizard nicely to cast Haste on you, your Speed with Feline Agility is 320 feet, with step of the wind dash, and hasted dash, you can bring this up to 960 feet(which, by the way is 109 mph), dealing 96d6 in one attack you hit, or 336 damage, and, since you didn’t move, you can do it again next turn. Even without Haste, you are still at a move speed of 320, dealing 112 damage. These numbers are truly insane if you build around it. In addition, consider, if you will, an assassin dip for Critical Hits, or 192d6 on a surprise crit, and an extra 20d10 if you’ve managed to get a second boon and ya’ nasty, or, you know 684 damage, aka 8 more HP than a tarrasque.  Even though it is build-dependent, the sheer broken-ness of the build earns this boon an easy S-Tier."
+  },
+  {
+    "id" : 55,
+    "name" : "BOON OF THE CRUSADER",
+    "tier" : "S",
+    "why" : "We’ve got a lot of options for this boon. The attack option is obviously excellent, Fighter’s best 11th level feature, allowing us to unload 3 smites in one round. In addition, it doesn’t specify whether you need a certain number of paladin levels, allowing you to dip 2-3 levels into pally with this boon for ample smite slots. This alone would make this boon A-Tier. Let’s take a look at the other option, shall we? Sanctified Channel Divinity gives us 2 5th level spell slots per short rest, which is great for a straight-classed paladin, who are only half-casters, especially if we can double the uses with an Amulet of the Devout. Or, you could multiclass into sorcerer, like I suggested above, so you could turn those 5th level slots and refresh all of your sub-fifth level spells. This type of build would answer the infamous Coffeelock with an even more unhinged build I will call the Crackadin. The last feature is also nice, as touch-limited healing is much more limited, and doubling your mileage on that front is also nice. In addition, if you encounter enemies with Chill Touch or Weapons of Certain Death, this is a great counter. With all of these effects combines, easy S-Tier."
+  },
+  {
+    "id" : 56,
+    "name" : "BOON OF THE SLAYER",
+    "tier" : "C",
+    "why" : "This might be nice to take if you are running a campaign with specific enemy type, but is far eclipsed by the Crusader. If you already have that boon, this is situationally beneficial. C-Tier."
+  },
+  {
+    "id" : 57,
+    "name" : "BOON OF MULTI-SHOT",
+    "tier" : "A",
+    "why" : "This one is tough. Unless you manage to mark your enemies from stealth, this only really grants benefit on the 2nd and 3rd rounds of combat onward, but when it does, it triples your attacks. Given that you have limited spell slots, you’ll want to hold concentration as well as possible, so try to stay concealed. But, elsewise, this grants you great mileage against a number of foes. A-TIer"
+  },
+  {
+    "id" : 58,
+    "name" : "BOON OF THE ARCANE ARCHER",
+    "tier" : "B",
+    "why" : "This is nice, and great for overcoming piercing resistances (force being go-to, unless you know of an enemy’s resistance). This is generally not as nice at Multi-Shot, but is a great option to take after it if you manage to get 2 boons. A-Tier"
+  },
+  {
+    "id" : 59,
+    "name" : "BOON OF THE BEAST TAMER",
+    "tier" : "B",
+    "why" : "If you are a Beast Master, this massively expands the options available to you. If you find a certain animal type compelling, then take this boon. Though, you may have already gotten attached to your companion you’ve had since level 3. Since it only benefits some beast master rangers, B-Tier."
+  },
+  {
+    "id" : 60,
+    "name" : "BOON OF THE MAGICAL BEAST",
+    "tier" : "C",
+    "why" : "Attunement slots are a frustratingly limited resource for magic-item-abundant campaigns. If you have a set of magic items that would work well on your companion, take this boon. Else, your other options are better. C-Tier."
+  },
+  {
+    "id" : 61,
+    "name" : "BOON OF THE PHASE ARROW",
+    "tier" : "C",
+    "why" : "This boon is pretty situational. If you have a wizard who likes to cast Wall of Force every encounter, this can help you kill the trapped enemies quickly. This is also great for assassin-type characters and missions whose victims won’t even know they’re missing. However, in most circumstances, the Blade boon is better. C-Tier."
+  },
+  {
+    "id" : 62,
+    "name" : "BOON OF THE BLADE",
+    "tier" : "S",
+    "why" : "Damage is damage is damage. A great boon for a pure rogue, even better for a dip, as it doesn’t scale with level. This will provide a huge boost to your sneak attacks, and excellent option. S-Tier"
+  },
+  {
+    "id" : 63,
+    "name" : "BOON OF THE ELEMENTAL LORD",
+    "tier" : "B",
+    "why" : "As your only 2nd level boon available, this is a great option. It is worth noting that with Transmuted Spell, you can have much more versatility with your spell options for damage. However, all of these options require a specific type of build, so if you focus on control as a sorcerer, you are SOL, making (almost) all of these options B-Tier. The different lords are detailed below: <br /><br />Stormlord: This lets you have the effect of upcasting on twice as many options, which edges it above the others here. If an enemy resists/is immune to one, they may very well not be to another. This also has great synergy if you are running the infamous Tempest cleric multiclass, using your channel divinity once (or twice, with an Amulet of the Devout) per short rest to maximize a spell’s damage roll. This boon is B-Tier<br /><br />Stonelord: There are a few good options for Blugeoning damage in sorcerer’s spell list, the best, and most upcast worthy being Bigby’s Hand. If your build centers around that, then great. It’s also nice that magical bludgeoning is more rarely resisted than elemental damage types. Here, the limited spell options are balanced by the lack of resistances.  B-Tier.<br /><br />Firelord/Oceanlord: Fire is one of the most resisted damage types, so if you take this (or Oceanlord to a lesser extent), be sure to pick up Elemental Adept. Or Boon of Irresistible Offense. These damage types don’t benefit from extra synergies, so with this base boon, it is still B-Tier.<br /><br />Salvelord: In DnD 5e, healing in general is a failing strategy beyond using it to pick up unconscious enemies. Since damage generally far outpaces healing, it’s usually not worth spending spell slots on. Until you take this boon, at least. For a divine soul sorcerer, your healing can finally catch up to damage in some situations, finally making healing a viable strategy. This is even better if used on a sorcerer dip with another full caster with more healing synergy, like a Life domain cleric. Since it massively boost a viability of a previously weaker strategy, A-Tier."
+  },
+  {
+    "id" : 64,
+    "name" : "BOON OF THE DEMONOLIGIST",
+    "tier" : "A",
+    "why" : "This provides some solid summons for your warlock to use. Given the dice rolls for the other summons, you glabrezu is probably your best bet, unless you need fly speed, in which case Vrocks may be better. Nevertheless, this is an impressive summoning feature that is useful on any warlock (though only really thematic for Fiendlocks). A-Tier"
+  },
+  {
+    "id" : 65,
+    "name" : "BOON OF THE OVERLORD",
+    "tier" : "A",
+    "why" : "In general, if you have a minute of peace outside of combat, you will likely have an hour of peace. This boon makes the level 20 feature useable in combat, effectively doubling your 5th level spell slots, which again, warlocks have so precious few. If you are level 20, this boon is great for any warlock to take. A-Tier"
+  },
+  {
+    "id" : 66,
+    "name" : "BOON OF THE MASTER BLASTER",
+    "tier" : "C",
+    "why" : "Eldritch blast is the most powerful cantrip in DnD and warlock’s most iconic feature, making high levels where many enemies have magic immunity totally soul-crushing (which is valuable property in their patron’s eyes!). This lets you skirt around those limitations. The other effects are also decent against spellcasters, but force resistance is so rare and spellcasters are not omnipresent, so this boon is best if your DM throws a lot of magic immune enemies at you. C-Tier."
+  },
+  {
+    "id" : 67,
+    "name" : "BOON OF THE WARD BREAKER",
+    "tier" : "S",
+    "why" : "Magic immunity is devastating for parties with a lot of spellcasters. It forces you to burn all of your high level spell slots on upcasting low level spells to try and get some damage on them, and become completely useless once you run out. If you have an eldritch blast focused character who hasn’t taken Master Blaster, they are rendered completely impotent. Breaking that magic immunity is so important that at very high levels, this boon is a no-brainer and what you should be spending all of your actions on once you realize your enemy is magic immune to some level. Make sure to pick up expertise and possibly Arcane Savant to maximize your chances of success. S-Tier"
+  },
+  {
+    "id" : 68,
+    "name" : "BOON OF THE ARCANE SAVANT",
+    "tier" : "B",
+    "why" : "This boon also gives you a ninth-level slot, which is always welcome. The intelligence skill roll is also nice for Counterspell and Dispel magic, auto-succeeding for level 5 spells and below, and even more if you are an abjuration wizard or have some other passive boost to ability checks. Also, if you have a lot of downtime and have a good crafting system for magic items, this allows you to more reliably succeed arcana checks required to make them. This is also great if you canyou’re your hands on a Mizzium Apparatus to diversify your spell list. Since this is rather build dependent, B-Tier."
+  },
+  {
+    "id" : 69,
+    "name" : "BOON OF THE ARCHMAGE",
+    "tier" : "C",
+    "why" : "The ninth level spell slot is nice, but there are few 1st level spells costing an action that are better than other options for boons here. Your 1st level slots will generally be much better spent on reactive defensive spells like Shield, Silvery Barbs, and Absorb Elements (unless you’ve made a Spell Slinger build with Spell Masteries). C-Tier."
+  },
+  {
+    "id" : 70,
+    "name" : "BOON OF THE BATTLE ARTIFICER",
+    "tier" : "A",
+    "why" : "Even more magic items! If you have an abundance and already chose Artifact Affinity, this one is always nice to have. A-Tier."
+  },
+  {
+    "id" : 71,
+    "name" : "BOON OF THE MASTER OF THE FORGE",
+    "tier" : "S",
+    "why" : "If you craft magic items often in your campaigns, the last part can come in handy, but a free +3 is so amazing that it will make your party fight over who gets it. This is best used on armor, because +3 armor is legendary in rarity, and can stack it with a +3 shield (or your +2 from infusions), allowing one lucky heavy-armor donning martial to rock an AC of 27, 32 if they dipped in spellcasting for shield S-Tier."
+  },
+  {
+    "id" : 72,
+    "name" : "BOON OF IMMORTALITY",
+    "tier" : "B",
+    "why" : "Finally, an immortality boon that’s worth our time. Again, not aging is mechanically inconsequential, but the various get-out-of-death-free cards you get (for as many hit die as you have) allows for some hilarious death-scraping builds who somehow last on the frontlines at single-digit HP. This can be great and fun if you build around it, B-Tier."
+  },
+  {
+    "id" : 73,
+    "name" : "BOON OF EXTRAORDINARY CONCENTRATION",
+    "tier" : "C",
+    "why" : "You’ll need excellent concentration options to pull this off. If that is the case, you can go ahead and take this. But if you are such a caster, it is likely wiser to stay alive and avoid damage as much as possible. You will also have likely taken feats or gotten yourself CON save proficiency to shore up your defenses. C-Tier."
+  },
+  {
+    "id" : 74,
+    "name" : "BOON OF EMPOWERED OFFENSE",
+    "tier" : "B",
+    "why" : "Remember how much I said magic immunity sucks? Well, this lets you skirt around that if you don’t have a wizard that took Ward Breaker. B-Tier."
+  },
+  {
+    "id" : 75,
+    "name" : "BOON OF THE DEATH BRINGER",
+    "tier" : "C",
+    "why" : "This seems great, but most of the threats you face by the point your GM gives you these boons should be over CR 10. If you are on the battlefield with an army of weak mooks, though, go ahead and use this boon to plough through them. C-Tier."
+  },
+  {
+    "id" : 76,
+    "name" : "BOON OF THE ARCANE MASTER",
+    "tier" : "A",
+    "why" : "Higher numbers is always better. Be sure to stack this with other Spell save items, like spellcasting foci, or Helm of Patron Saints to bring your DC up to ludicrous levels to make sure your save-or-sucks always suck for their targets, especially if you choose to use rarer saving throws, like INT or CHA. This is best on casters with mostly save-or-suck spells, like bards or enchantment wizards. A-Tier."
+  },
+  {
+    "id" : 77,
+    "name" : "BOON OF THE SPELL LORD",
+    "tier" : "B",
+    "why" : "Again, you you generally won’t face many sub-CR11 creatures at this level, but if you do, you can plow through them with blasts. The crit threshold lowering’s effectiveness really depends on how often you roll spell attacks. Even so, building for crit-fishing is not the best strategy in general, and you would likely benefit more from Spell Slinger or Arcane Savant. The noticing your spellcasting power isn’t great either, since it will draw fire to you, who likely has lower hit-dice than your martial teammates, though, depending on your build, could be far greater, so this may be a good. Very build dependent, but for spell-attacking builds with high survivability (I’m imagining some artificer/abjuration wizard multiclass), this could be for you. B-Tier."
+  },
+  {
+    "id" : 78,
+    "name" : "BOON OF PERFECT HEALTH",
+    "tier" : "C",
+    "why" : "This is almost certainly a trap. You’ll want to carefully evaluate the number of hit points gained from this and compare it to fortitude. For example, if you are a level 20 barbarian who has rolled average on their hit die (7/12), you will gain 100 hit points. If you house rule to get it above average, you get diminishing returns, and if you can take the same feat multiple times, Fortitude thrice is mathematically superior. C-Tier."
+  },
+  {
+    "id" : 79,
+    "name" : "BOON OF THE PARAGON",
+    "tier" : "B",
+    "why" : "Proficiency effects nearly everything you do in the game, so this boon seems great from the start, but, you really need to evaluate where that +1 will go and determine whether another boon or purchasing a new magic item is more worth your time.  For example, if you are mainly a save-or-suck caster, Arcane Savant will grant you +3 more to the most important number on your character sheet. If you have a build with a lot of features depending on your proficiency bonus, this may be worth it, thus: B-Tier."
+  },
+  {
+    "id" : 80,
+    "name" : "BOON OF THE SPELL SLINGER",
+    "tier" : "S",
+    "why" : "This spell is generally best taken on warlocks with powerful Eldritch Blasts, or perhaps teams with lots of save-or-suck casters for Mind Sliver, which benefits your whole party, unlike Arcane Savant. It could be a way to eke out an extra attack with booming blade or green flame blade if you are a gish-type character, like Hexblade, or Eldritch Knight. You’ll also want to make sure you have an answer for magic immunity, such as Master Blaster, Empowered Offense, or Ward Breaker, so you can make use of cantrips against enemies who matter. The second half of this boon is also excellent, especially paired with the Spell Mastery first level boons, allowing you to dish out silvery barbs to complement your own save-or-suck spells, while still being able to Shield, Counterspell, or Absorb Elements should the need arise. S-Tier"
+  },
+  {
+    "id" : 81,
+    "name" : "BOON OF EVEN HIGHER MAGIC",
+    "tier" : "S",
+    "why" : "This depends entirely on how your DM runs and implements very high-level spellcasting in DnD. At the very least, a 10th level spell slot should allow you to upcast Wish, allowing you to get any spell in the game. This alone is worth the boon, making this an S-Tier, easily."
+  },
+  {
+    "id" : 82,
+    "name" : "BOON OF HIGHEST MAGIC",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 83,
+    "name" : "BOON OF 10th LEVEL MAGIC",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 84,
+    "name" : "BOON OF 11th LEVEL MAGIC",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 85,
+    "name" : "BOON OF LESSER BOONS",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 86,
+    "name" : "BOON OF GREATER ARTIFACT AFFINITY",
+    "tier" : "A",
+    "why" : "The more magic items you get, the more attunement slots you want. If you have magic items you want to keep attuned to you forever, go ahead and add another accessory to you magical girl transformation (or some appropriately masculine alternative, if that’s what you’re in to). A-Tier."
+  },
+  {
+    "id" : 87,
+    "name" : "BOON OF THE SUMMONER",
+    "tier" : "B",
+    "why" : "Simple, the best bet for summoning builds. B-Tier."
+  },
+  {
+    "id" : 88,
+    "name" : "BOON OF THE DRAGON LORD",
+    "tier" : "C",
+    "why" : "Once again, this is a highly situational build-dependent campaign-dependent option that is kind of a waste of money. If you have this specific power fantasy and the Wyrm Knight already, this boon is worthwhile, else, not at all. C-Tier."
+  },
+  {
+    "id" : 89,
+    "name" : "TALON OF TIAMAT",
+    "tier" : "C",
+    "why" : "This is pretty nice and stacks with your Wyrm Knight feature. If you are just going after breath weapon damage, and already have defensive/fly solutions, take this boon. But again, it is a very hefty investment. C-Tier."
+  },
+  {
+    "id" : 90,
+    "name" : "MYTHIC LEADER",
+    "tier" : "A",
+    "why" : "The army is nice, depending on how you and your DM run in it combat, but the main use of this is the shout. Depending on how your DM interprets this, it could restore your Wyrm Knight friend’s breath weapon, or refresh the entirety of your wizard’s spell slots. Again, this is highly party comp dependent, but if you can use this to maximum effect, it’s great. S-to-B-Tier."
+  },
+  {
+    "id" : 91,
+    "name" : "BOON OF MULTI-CLASS",
+    "tier" : "B",
+    "why" : "A level is always nice, if you are some complex multiclass, or maybe have a steep dip out of a casting class, this can help you get your higher level spells/spell slots. Build dependent. B-Tier."
+  },
+  {
+    "id" : 92,
+    "name" : "BOON OF MULTI-SUBCLASS",
+    "tier" : "S",
+    "why" : "The value of this boon varies wildly depending on your base class, and you will need to plan around this, but doubling your subclass features can give you incredible passive benefits and options in combat. If you are a cleric with Ascendent, for instance, your upcasting opportunities double. Beware of subclasses that rely on the same base-class features, though. Two subclasses that burn through, say, wild shape charges or Ki points and leave you very short on resources. Also, make sure they don’t require the same action/bonus action/reaction. Seek out options with passive benefits and ones that synergize well together. However, in almost every case, there will be incredible gains from an extra subclass. Easily S-Tier."
+  },
+  {
+    "id" : 93,
+    "name" : "BOON OF FEATS",
+    "tier" : "B",
+    "why" : "Feats are great, and depending on your build, if you multiclassed a lot, you may be very feat-starved. These can really change up your play style, and help you out in a lot of situations. B-Tier."
+  },
+  {
+    "id" : 94,
+    "name" : "BOON OF GREATER SPEED",
+    "tier" : "D",
+    "why" : "This does not belong here. For movement focused characters, 10 feet is nothing. This is a level 1 boon if we’re generous. Do not waste your boon points on this. For instance, you could take boon of feats and get Mobile for this same effect and more benefits AND two other feats. D-Tier. "
+  },
+  {
+    "id" : 95,
+    "name" : "BOON OF DIETY ARTIFACT AFFINITY",
+    "tier" : "A",
+    "why" : "As always, this boon is as good as the artifacts you have available to you, which is likely some very good artifacts. A-Tier."
+  },
+  {
+    "id" : 96,
+    "name" : "BOON OF THE RAGEBORN",
+    "tier" : "C",
+    "why" : "The first clause of this boon is very thematic and seems cool. Even though your actions are extended beyond death, you’ll still get auto-fail death saves if you’re hit. With most enemies having 2-3 Attacks at this (likely Tier 4) point of play, you’ll be lucky to get one extra turn out of this feat after getting downed. You also will likely be built to have a lower AC as a barbarian to encourage enemies to try (and fail) to burn through your massive hit point pool. If you’ve already taken the Ravager, the second part of this boon is not as impactful, since you can remove the results of the debilitating conditions that result from failed saves. Though, this is still good to prevent them in the first place. This is your only boon at this level, which kind of sucks. You would likely be better served by taking a level 3 boon, like the 3rd level Boon of Immortality to actually get back HP once you’re downed, and even more at the beginning of your turn. C-Tier."
+  },
+  {
+    "id" : 97,
+    "name" : "BOON OF THE ALL SPEAKER",
+    "tier" : "S",
+    "why" : "This massively expands your options and versatility, allowing you to take S-Tier spellcasting boons from other classes. It’s even better if your DM interprets this as taking either level 4 or level 2 boons. That said, most of the class-specific boons are, well, class-specific. If you can work with your DM to make them fit closer to bard, or waive some prerequisites, you have a lot of good options. Some standout options are: Cleric’s Boon of the Ascendent, Boon of Battle Cry, and Boon of The Arcane Master."
+  },
+  {
+    "id" : 98,
+    "name" : "BOON OF INSPIRED INSPIRATION",
+    "tier" : "S",
+    "why" : "If you have taken the previous 2nd level bard boons, this one takes them and cranks them to 11. If you have also taken Mesgrali, your bardic will now give a +20 to your allies’ checks/saving throws/attack rolls. If your inspire-ee is already proficient/has a reasonable bonus in these, it is pretty much an automatic success, and a +20 is honestly a little gratuitous. For allies, this is best done on saving throws, which often have worse bonuses and at this level can have the most harrowing effects. Again, if you are a Lore or Eloquence bard, this boon is an auto-fail/miss for your foes saving throws/attack rolls, allowing your debilitating save-or-suck effects to stick, or at least guarantee a legendary resistance loss. This is also great if you have multiclassed out of bard, such as an infamous bardadin or some other CHA-based power build so your inspiration die can skip d10 and d12 and go to d20’s S-Tier."
+  },
+  {
+    "id" : 99,
+    "name" : "BOON OF THE DEMIGOD",
+    "tier" : "A",
+    "why" : "Again, the first clauses of this boon are not usually relevant to most adventurers, so they shouldn’t be regarded, unless your DM makes a ruling on using your worshipper’s as allies in battle, like recruiting a zealotry-fueled military to wage war on your behalf. The death contingency is okay, but depending on whether or not this is voluntary in can prevent your party from Revivifying you in the heat of battle. Regardless, if you are the only one in this boon, you’ve lost whatever combat you’re in, and without their cleric, your party will likely follow. However, you could use this after a TPK to wait a week and True Resurrection on your party for a comeback/revenge arc, given that the world hasn’t already ended due to the high-stakes nature of play at this level. The ritual feature is neat, and great for role play, but generally won’t have huge impacts on your play (unless your BBEG is using some ritual that relies on planets/stars aligning)<br /><br />The main mechanical benefits of this boon are found in the second paragraph. If you have already taken Ascendent, increasing the upcast of your domain spells to level 5 from level 4 is only a marginal benefit. However, having pretty much 3 legendary resistances (or 4 if you have an Amulet of the Devout, which at this tier, you definitely should) is not a feature to scoff at. That alone earns its place in this tier. Because of all of the one very good, and several situational benefits of this boon, I will place it in A-Tier."
+  },
+  {
+    "id" : 100,
+    "name" : "BOON OF THE PRIMORDIAL",
+    "tier" : "B",
+    "why" : "This is a nice boost to your attacks if you are an wild-shaping druid. Though, to get the most out of wild shape in this tier, you would likely need the Leviathan boon to make this worthwhile, as well as the already required Emergent Primordial boon. For a very boon-hungry wildshape build, B-Tier."
+  },
+  {
+    "id" : 101,
+    "name" : "BOON OF THE DRAGONSOUL",
+    "tier" : "S",
+    "why" : "This is the best boon for a wildshaping druid. The HP pool alone is incredible to add to a druid’s wildshape, and this will by far beat out any of your other options. Although, if you really want to be a dragon at this point, you can just True Polymorph yourself into an adult (or, if your DM factors boons into your CR), an ancient dragon. This requires far less resources, though, and doesn’t require you to give up your humanoid form, so go for it. S-Tier."
+  },
+  {
+    "id" : 102,
+    "name" : "BOON OF THE GREATER DRAGONSOUL",
+    "tier" : "S",
+    "why" : "Dragonsoul is good, and this one is good. If you somehow got 2 4th level boons before conquering the universe, take this boon. S-Tier."
+  },
+  {
+    "id" : 103,
+    "name" : "BOON OF THE KING\/QUEEN OF THE WILD",
+    "tier" : "D",
+    "why" : "Unless you can summon all of these beasts onto the battlefield at once, this is not good. Beasts are such a rare creature type to encounter at this level, that this boon is not worth it at all, unless you somehow use it to build a massive army full of high CR beasts. If not, the usefulness of this boon ends at whether your DM wants to test whether a CR30 enemy can beat a billion lions. D-Tier."
+  },
+  {
+    "id" : 104,
+    "name" : "BOON OF THE GREATER BATTLE CRY",
+    "tier" : "S",
+    "why" : "Simple, just like fighters. This breaks the action economy. S-Tier."
+  },
+  {
+    "id" : 105,
+    "name" : "BOON OF THE VOID",
+    "tier" : "A",
+    "why" : "If you’ve read my section on the One-Punch boon, you already know how valuable move speed is. However, if you’ve already taken Boon of Speed, then this is not as great of a benefit. Flyspeed is always great, but as you know, your move speed use should be minimized so you can get in that 800+ damage. A-Tier."
+  },
+  {
+    "id" : 106,
+    "name" : "BOON OF THE LIVING SAINT",
+    "tier" : "B",
+    "why" : "As a paladin, your auras are your most powerful class feature. This takes the worries out of precisely positioning your party members so that they can benefit from this boon. Combats at this level often feature massive arenas, so it is nice for those situations. However, at this point, your party should already have a plan to benefit from your auras at closer range, but if not, this should be your go-to. In addition, if your party features the previously alluded-to holy army from the cleric boon, or animal hordes from the druid boon, or summoning builds in general can now benefit. B-Tier."
+  },
+  {
+    "id" : 107,
+    "name" : "RICHTER'S BOON",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 108,
+    "name" : "BOON OF DIVINE MULTI-SHOT",
+    "tier" : "S",
+    "why" : "Hunters Mark no longer requires concentration for you, you can have as many marks up as you want and your multi attack will fire on them all as long you can see them and they are in range. Again, this requires some time to set up, depending on whether your DM allows you to sneak up on encounters and subtly mark them with Hunter’s Mark, but the sheer number of attacks you can get makes this boon an easy W. You can also finally actually use your other spells if you’ve just been working with the 2nd level Multi-Shot. S-Tier."
+  },
+  {
+    "id" : 109,
+    "name" : "BOON OF THE BEASTLORD",
+    "tier" : "A",
+    "why" : "This opens up so many possibilities, not the least of which is allowing you to have a young dragon as your companion. An easy pick for Beast Master rangers. A-Tier."
+  },
+  {
+    "id" : 110,
+    "name" : "BOON OF THE DEADLY BLADE",
+    "tier" : "S",
+    "why" : "With steady aim, or other advantage-giving mechanics, you can easily take out hordes of enemies with this, as long as you’ve taken the Boon of the Blade. S-Tier"
+  },
+  {
+    "id" : 111,
+    "name" : "BOON OF THE ARTIFICER MASTER",
+    "tier" : "S",
+    "why" : "A +12 to all saving throws, and a veritable horde of magic items you can attune to. S-Tier."
+  },
+  {
+    "id" : 112,
+    "name" : "BOON OF THE ARCANE MASTER",
+    "tier" : "S",
+    "why" : "Game breaking. Scorching Ray everything, Banish everyone. If you insist on making your DM explode, dip 1 level into Peace cleric (a common powerful dip), make sure to take ascendent, and evict horrifying monsters from your combat, no concentration needed, one-by-one. This is only after, of course, you’ve taken sufficient time to burn through legendary resistances, ward-broken magic immunity. And you get a 10th level slot for another upcasted wish for any spell in the game. S-Tier."
+  },
+  {
+    "id" : 113,
+    "name" : "BOON OF THE GRAND TRADITION",
+    "tier" : "S",
+    "why" : "The 1st level spell to cantrip feature is always excellent, as can be seen in my review of the 1st level Spell Mastery boon. Use this for Shield, Silvery Barbs, or Gift of Alacrity. You won’t regret it. There are a lot of great options here, but they’ll all have to compete with Master of the Arcane, so let’s take a look:<br /><br />Abjuration: This one is insulting, a +1 to a type of save at this boon level is a drop in the bucket. If you want this kind of bonus, use Boon of Artifact Affinity or Boon of Greater Artifact Affinity and attune yourself permanently to a Staff of Power. More saves on everything, more AC, and more spells, for a lower level boon. D-Tier.<br /><br />Conjuration: In encounters focusing on one type of damage, this could be useful, and changing that type of damage is nice as well. However, at this level, the encounters your DM is cooking up for you will likely feature multiple enemies with a variety of used damage types, so this boon is very situational. C-Tier.<br /><br />Divination: If you’ve been playing a divination wizard this long, you already know how incredibly power Portent is. Two more uses will bring your wizard to another level. S-Tier.<br /><br />Enchantment: You’ve already got split enchantment, so this will take your Dominate Monsters and your Power Word Kills, and even Hold Monster, Dominate Person, and Otto’s Irresistible Dance to target 4 creatures rather than 1. This outpaces Arcane Master’s spell mastery feature already. S-Tier. <br /><br />Evocation: When thinking of taking this boons, question how many enemies you fight actually have these features. Unless your DM files legendary resistances, or magic resistance/immunity under the vague category of “such traits,” this is likely not worth it. C-Tier.<br /><br />Illusion: I am not really sure what spells this is supposed to benefit, and I can’t see any from what I’ve looked at that are powerful enough to justify this boon over Arcane Master. D-Tier."
+  },
+  {
+    "id" : 114,
+    "name" : "BOON OF THE DEAD GOD FRAGMENT",
+    "tier" : "S",
+    "why" : "If you are at this tier of play, it is not unlikely that you will have encountered a god fight or two. If not, make a fun quest out of it! +5 to all stats is obviously insanely powerful, so as long as this boon is available, you should go for it. S-Tier."
+  },
+  {
+    "id" : 115,
+    "name" : "BOON OF THE GREATER DEMONOLIGIST",
+    "tier" : "A",
+    "why" : "Once more, some excellent summon options to really show off your Fiendlock’s power. A-Tier."
+  },
+  {
+    "id" : 116,
+    "name" : "BOON OF THE WILD MAGE",
+    "tier" : "S",
+    "why" : "Depending on what wild magic table your DM uses, this can make the long trudges you’ve suffered playing a wild magic sorcerer finally worth it. The most powerful effect on the vanilla table is likely the one allowing you to regain all sorcery points, pretty much allowing you to have an extra 20 sorcery points at level 20, which alone makes this boon S-Tier."
+  },
+  {
+    "id" : 117,
+    "name" : "BOON OF THE ARCHON",
+    "tier" : "D",
+    "why" : "This may seem appealing, and it will be exciting to chain rolls, but a 50/50 shot at one damage die is not really ideal. To be optimistic, take a d12 damage die-dealing spell. Each d12 has an expected damage value of 6.5, and multiplying the probability of an extra damage die by it (0.5), you get the series (6.5) * (0.5 + 0.5^2 + 0.5^3 + 0.5^4 +…). The series converges to one, making the average extra damage the same number as the expected die value… Pathetic! Given there are so many excellent lower-level boons for casters: D-Tier."
+  },
+  {
+    "id" : 118,
+    "name" : "BOON OF THE GREATER ELEMENTAL LORD",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 119,
+    "name" : "BOON OF GREATER BOONS",
+    "tier" : "B",
+    "why" : "There are a lot of great 3rd level boons, and if you have a build planned around them, then go for it, but seriously consider the other boons available here. Also, if you use a boon-point system where 3rd level boons are worth 3 and 5th level are worth 5, this probably shouldn’t apply, else you’ll get an infinite boon glitch?? Take this boon with 5 boon points, use it for 2 3rd level boons for 6, then continue! Infinite boons!!11!!1!! /s For games not using this system, B-Tier."
+  },
+  {
+    "id" : 120,
+    "name" : "BOON OF MASTER TACTICIAN",
+    "tier" : "A",
+    "why" : "If you are taking this boon mainly for the attacking benefit, it can be likened to Elven Accuracy, one of the best feats in the game, but still, a feat. This works past the racial/ability score requirement, allowing you to use strength for these. Where this shines the most is probably for advantage on saving throws, which is a great defensive benefit. This boon stacks best with Foresight, amplifying the power of that spell. Since you have to plan for it, but its effects are so powerful, A-Tier."
+  },
+  {
+    "id" : 121,
+    "name" : "BOON OF 12th LEVEL MAGIC",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 122,
+    "name" : "BOON OF DIVINE MAGIC",
+    "tier" : "?",
+    "why" : "Some Reason"
+  },
+  {
+    "id" : 123,
+    "name" : "BOON OF GREATER FEATS",
+    "tier" : "B",
+    "why" : "Feats are always incredibly powerful, and a lot of highly multiclass power builds are feat-hungry. Though, at this point it’s so late in the game that powerful feats may not do you much good, and I’m not sure there even are 10 feats that all work on the same character to be extremely beneficial. If you’re building something from scratch for an ultimate level 20 one-shot, then this might be worth it, otherwise, likely not. Due to being so highly build dependent: B-Tier."
+  },
+  {
+    "id" : 124,
+    "name" : "BOON OF GODLY MULTI-CLASS",
+    "tier" : "S",
+    "why" : "This is very build dependent, but can help you get your multiclass builds which disappointingly missed out on high-level features up to the same level of specialization of a boon-less level 20 character. For example, you can get a Paladin 7/Sorcerer 18 to get both your auras, full spell slot progression, Wish, and your sorcerer capstone. There are also several other excellent multiclassing options available that you can find great synergies with. S-Tier."
+  },
+  {
+    "id" : 125,
+    "name" : "BOON OF PARTIAL DIVINITY",
+    "tier" : "S",
+    "why" : "Breaks bounded accuracy. Best on SAD builds like full casters, or Hexblade/Caster gish buils. Also, pay attention to class features based off of your stat. This would give you 10 bardic inspirations, a +10 on your aura of protection, so this boon is even better for those classes. S-Tier."
+  },
+  {
+    "id" : 126,
+    "name" : "CRITICAL SPELL CASTER",
+    "tier" : "D",
+    "why" : "A dud boon giving a 5% increase in average damage. At this level, you should honestly just get double spell damage, considering how OP the other boons are. D-Tier"
+  },
+  {
+    "id" : 127,
+    "name" : "CRITICAL WEAPON MASTER",
+    "tier" : "B",
+    "why" : "Crit fishing is a losing strategy in dnd, so the crit threshold detail is build-dependent, at best. The triple dice damage is interesting, though. If you are a build focused around guaranteeing crits via Hold Monster (or a lucky divination wizard who got lucky with their portents!), then this could provide a serious boost to your damage. For example, a Crackadin (like I discussed in the Crusader boon section) that can dish out 3 fourth-level smites in one nova round, and has a Holy Weapon infused sword, can increase their nova damage by 7d8 per hit, or 94.5 average damage in your nova round. For highly build-dependent benefits, I’d give this boon a B-Tier."
+  },
+  {
+    "id" : 128,
+    "name" : "BOON OF PHOENIX",
+    "tier" : "S",
+    "why" : "Alright, there is a lot to go through here, so I’ll just skip to the mechanically relevant ones. The fire and radiant absorption are excellent and can be paired with multiple spells to give yourself passive healing. At this level, a fetch quest for a phoenix egg can be a fun adventure to bring you to the plane of fire, with a great reward. For example, maybe you can stand in your cleric’s upcasted Spirit Guardians and soak in the holy light. The damage immunities alone are among the most common (fire and poison, that is, with radiant less so), so that effect is very beneficial. The condition immunities are also excellent, with some being incredibly debilitating, and most being very common. The flying speed is also incredible and outpaces most creatures in the game. The environmental exposure feature is not super applicable in most games, but the exhaustion benefit can be incredible and abused (on a chronurgy wizard’s simulacrum). Hopefully when your body bursts into flames, your magic items aren’t destroyed, but it is kind of inconvenient if you die often in encounters via Power Word Kill and can make it impossible for your cleric to bring you back. Still, with this litany of benefits, easy S-Tier."
+  },
+  {
+    "id" : 129,
+    "name" : "BOON OF CELESTIAL",
+    "tier" : "A",
+    "why" : "The damage resistances are rather common and nice. Fly speed is always powerful, but the real draw is the boost to your weapon attacks. This is incredible if you are making multiple attacks per turn, especially a Fighter, or a Paladin with the Crusader boon. The healing touch is a nice bonus, but can basically be substituted for a Heal spell, but great nonetheless. A-Tier."
+  },
+  {
+    "id" : 130,
+    "name" : "BOON OF FIEND",
+    "tier" : "A",
+    "why" : "This boon seems like an unfinished copy of the Celestial boon, the only difference being its aesthetic and damage resistance. Fire vs. Radiant and Necrotic damage can depend on what kind of enemies you’re facing in your campaign, but are approximately equivalently situational in my opinion. This has the same rating as the Celestial boon: A-Tier."
+  }
+]

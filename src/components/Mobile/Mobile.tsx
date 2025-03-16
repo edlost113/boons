@@ -6,7 +6,7 @@ import {
   type MRT_RowSelectionState,
 } from 'mantine-react-table';
 import { Box, Group, Stack, useMantineColorScheme } from '@mantine/core';
-import { data, dataBoonInfo, type Boon, type BoonInfo } from '../../data';
+import { data, dataBoonInfo, type Boon } from '../../data';
 import { ShoppingList } from '../Drawer/ShoppingList';
 import { TierInfo } from '../Drawer/TierInfo';
 
@@ -58,11 +58,17 @@ const Mobile = () => {
               <Box>
                 <strong style={{ color: 'skyblue' }}>Boon Points:</strong> {cell.row.original.lvl}
               </Box>
-              {/*<TierInfo 
-                person="IDKs" 
-                content={cell.row.original} 
-                info={dataBoonInfo.find(info => info.name === cell.row.original.name)||{name:cell.row.original.name, tier: "idk", why: "idk"} }
-                />*/}
+              <TierInfo
+                person="Mark's"
+                content={cell.row.original}
+                info={
+                  dataBoonInfo.find((info) => info.name === cell.row.original.name) || {
+                    name: cell.row.original.name,
+                    tier: 'idk',
+                    why: 'idk',
+                  }
+                }
+              />
             </Stack>
             <Stack align="stretch" justify="center" darkHidden>
               <Box>{cell.getValue<string>()}</Box>
@@ -80,11 +86,17 @@ const Mobile = () => {
               <Box>
                 <strong>Boon Points:</strong> {cell.row.original.lvl}
               </Box>
-              {/*<TierInfo 
-                person="IDKs"
-                content={cell.row.original} 
-                info={dataBoonInfo.find(info => info.name === cell.row.original.name)||{name:cell.row.original.name, tier: "idk", why: "idk"} }
-               />*/}
+              <TierInfo
+                person="Mark's"
+                content={cell.row.original}
+                info={
+                  dataBoonInfo.find((info) => info.name === cell.row.original.name) || {
+                    name: cell.row.original.name,
+                    tier: 'idk',
+                    why: 'idk',
+                  }
+                }
+              />
             </Stack>
           </>
         ),
