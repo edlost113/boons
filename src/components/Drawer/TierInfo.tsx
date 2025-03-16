@@ -191,7 +191,7 @@ function TierInfo({ content, info, person }: { content: any; info: any; person: 
       </Drawer>
 
       <Anchor variant="filled" onClick={open}>
-        {person} Corner
+        {person} Musing
       </Anchor>
     </>
   );
